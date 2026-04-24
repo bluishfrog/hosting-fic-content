@@ -1,0 +1,212 @@
+[
+    {
+        "handle": "@HeartOnIce",
+        "name": "Cold Heart, Hot Takes",
+        "icon": "tbd",
+        "vibe": "hockey fan, pos"
+    },
+    {
+        "handle": "@BleedForTheTeam",
+        "name": "Bleed Team Colors",
+        "icon": "tbd",
+        "vibe": "hockey fan, pos"
+    },
+    {
+        "handle": "@OvertimeStress",
+        "name": "OT Anxiety Club",
+        "icon": "tbd",
+        "vibe": "hockey fan, pos"
+    },
+    {
+        "handle": "@SuddenDeathStan",
+        "name": "Sudden Death Enjoyer",
+        "icon": "tbd",
+        "vibe": "hockey fan, pos, edgy"
+    },
+    {
+        "handle": "@CantWinInRegulation",
+        "name": "Regulation Is Optional",
+        "icon": "tbd",
+        "vibe": "hockey fan, neg"
+    },
+    {
+        "handle": "@GoalHornAddict",
+        "name": "Goal Horn Enthusiast",
+        "icon": "tbd",
+        "vibe": "hockey fan, neut"
+    },
+    {
+        "handle": "@PenaltyBoxThoughts",
+        "name": "2 Minutes For Thinking",
+        "icon": "tbd",
+        "vibe": "hockey fan, pos, think pieces"
+    },
+    {
+        "handle": "@ZamboniVibes",
+        "name": "Fresh Ice Energy",
+        "icon": "tbd",
+        "vibe": "hockey fan, pos"
+    },
+    {
+        "handle": "@PuckLuckPlease",
+        "name": "Manifesting Puck Luck",
+        "icon": "tbd",
+        "vibe": "hockey fan, neg"
+    },
+    {
+        "handle": "@RefsAreMyEnemy",
+        "name": "You Fucking Serious",
+        "icon": "tbd",
+        "vibe": "hockey fan, neut"
+    },
+    {
+        "handle": "@CrosscheckMySoul",
+        "name": "Emotionally Crosschecked",
+        "icon": "tbd",
+        "vibe": "willmack fan, pos"
+    },
+    {
+        "handle": "@BenchDoorDrama",
+        "name": "Bench Side Drama",
+        "icon": "tbd",
+        "vibe": "gossip fan, pos"
+    },
+    {
+        "handle": "@IceIsSlipperyBro",
+        "name": "woah hockey 🥵",
+        "icon": "tbd",
+        "vibe": "willmack fan, pos, horny"
+    },
+    {
+        "handle": "@ChirpFactory",
+        "name": "chrip chirp bitch",
+        "icon": "tbd",
+        "vibe": "hockey fan, pos"
+    },
+    {
+        "handle": "@BrokenStickEra",
+        "name": "Emmy",
+        "icon": "tbd",
+        "vibe": "willmack fan, pos, doomposter"
+    },
+    {
+        "handle": "@HelmetHairEnthusiast",
+        "name": "Terri",
+        "icon": "tbd",
+        "vibe": "hockey fan, pos, horny"
+    },
+    {
+        "handle": "@BenchCamWatcher",
+        "name": "Hockey Analyst Tilly",
+        "icon": "tbd",
+        "vibe": "hockey fan, neut, analyst"
+    },
+    {
+        "handle": "@SlowMoCelly",
+        "name": "all the best cellies",
+        "icon": "tbd",
+        "vibe": "hockey fan, pos, only pic and gifs"
+    },
+    {
+        "handle": "@RespectfullyLooking",
+        "name": "Looking Respectfully",
+        "icon": "tbd",
+        "vibe": "thirsty fan"
+    },
+    {
+        "handle": "@HockeyButMakeItPersonal",
+        "name": "It’s Personal Now",
+        "icon": "tbd",
+        "vibe": "dramatic fan"
+    },
+    {
+        "handle": "@EyesOnTheBench",
+        "name": "Bench Reactions Only",
+        "icon": "tbd",
+        "vibe": "niche content"
+    },
+    {
+        "handle": "@NoticingThingsRespectfully",
+        "name": "Observing Respectfully",
+        "icon": "tbd",
+        "vibe": "thirsty fan"
+    },
+    {
+        "handle": "@PuckAndExistentialDread",
+        "name": "Pucks & Problems",
+        "icon": "tbd",
+        "vibe": "existential fan"
+    },
+    {
+        "handle": "@IcingIsACrime",
+        "name": "Icing Enforcement Squad",
+        "icon": "tbd",
+        "vibe": "rules nerd"
+    },
+    {
+        "handle": "@TooManyMenOnMyMind",
+        "name": "Counting Players Again",
+        "icon": "tbd",
+        "vibe": "chaotic humor"
+    },
+    {
+        "handle": "@GoalieUnionRep",
+        "name": "Goalie Rights Advocate",
+        "icon": "tbd",
+        "vibe": "goalie apologist"
+    },
+    {
+        "handle": "@DumpAndChaseLife",
+        "name": "Dump & Chase Forever",
+        "icon": "tbd",
+        "vibe": "old school fan"
+    },
+    {
+        "handle": "@EmotionallyOffside",
+        "name": "Offside Emotionally",
+        "icon": "tbd",
+        "vibe": "sad fan"
+    },
+    {
+        "handle": "@TealTillIDie",
+        "name": "Teal Forever",
+        "icon": "tbd",
+        "vibe": "diehard sharks fan"
+    },
+    {
+        "handle": "@SharksHeartbreak",
+        "name": "San Jose Pain",
+        "icon": "tbd",
+        "vibe": "doomer sharks fan"
+    },
+    {
+        "handle": "@BayAreaBreakaways",
+        "name": "Bay Area Hockey",
+        "icon": "tbd",
+        "vibe": "regional fan"
+    },
+    {
+        "handle": "@OvertimeInSanJose",
+        "name": "SJ Overtime Survivor",
+        "icon": "tbd",
+        "vibe": "traumatized sharks fan"
+    },
+    {
+        "handle": "@SharkTankStress",
+        "name": "Shark Tank Anxiety",
+        "icon": "tbd",
+        "vibe": "anxious sharks fan"
+    },
+    {
+        "handle": "@StillBelieveInTeal",
+        "name": "Still Believe",
+        "icon": "tbd",
+        "vibe": "optimistic sharks fan"
+    },
+    {
+        "handle": "@bob",
+        "name": "Bob",
+        "icon": "https",
+        "vibe": "neutral"
+    }
+]
