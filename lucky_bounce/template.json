@@ -1,0 +1,67 @@
+[
+    {
+        "type": "twitter",
+        "author": "alice",
+        "timestamp": "2026-03-22T14:57:00Z",
+        "content": {
+            "text": "Hello World",
+            "tags": [
+                "damn a tag",
+                "can't believe this is another tag"
+            ],
+            "media": "https://media.tenor.com/Teq-XDUYFg8AAAAC/hello-cat.gif",
+            "quoted": {
+                "author": "alipetrace",
+                "timestamp": "2026-03-22T14:50:00Z",
+                "content": {
+                    "text": "quoted tweet",
+                    "tags": [
+                        "another test tag",
+                        "can't believe this is another tag"
+                    ],
+                    "media": "https://media.tenor.com/Teq-XDUYFg8AAAAC/hello-cat.gif"
+                },
+                "stats": {
+                    "retweets": 2,
+                    "quote_retweets": 3,
+                    "likes": 77
+                }
+            }
+        },
+        "stats": {
+            "retweets": 56,
+            "quote_retweets": 11,
+            "likes": 271
+        },
+        "replies": {
+            "1" : {
+                "author": "noelle",
+                "replyingto": "alice",
+                "timestamp": "2026-03-22T14:58:00Z",
+                "content": {
+                    "text": "reply one",
+                    "media": "https://media.tenor.com/Teq-XDUYFg8AAAAC/hello-cat.gif"
+                },
+                "stats": {
+                    "retweets": 4,
+                    "quote_retweets": 2,
+                    "likes": 54
+                }
+            },
+            "2" : {
+                "author": "louis",
+                "replyingto": "noelle",
+                "timestamp": "2026-03-22T14:59:00Z",
+                "content": {
+                    "text": "reply two",
+                    "media": "https://media.tenor.com/Teq-XDUYFg8AAAAC/hello-cat.gif"
+                },
+                "stats": {
+                    "retweets": 7,
+                    "quote_retweets": 3,
+                    "likes": 52
+                }
+            }
+        }
+    }
+]
