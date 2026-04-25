@@ -1,5 +1,25 @@
 [
     {
+        "handle": "hockeykelly_2001",
+        "name": "Kelly",
+        "icon": "twitter_accounts/profile_pictures/puck.jpg",
+        "vibe": "hockey fan, pos, only pic and gifs"
+    },
+    {
+        "handle": "TealTillIDie",
+        "name": "WITH THE POWER OF LOVE",
+        "icon": "twitter_accounts/profile_pictures/wm_hug.jpg",
+        "vibe": "shark fan, pos, intense"
+    },
+    {
+        "handle": "newswithdestiel",
+        "name": "News with Destiel",
+        "icon": "twitter_accounts/profile_pictures/destiel_news.jpg",
+        "vibe": "news acc, pos"
+    },
+    
+    
+    {
         "handle": "PenaltyBoxThoughts",
         "name": "2 Minutes For Thinking",
         "icon": "twitter_accounts/profile_pictures/celly.jpg",
@@ -11,18 +31,14 @@
         "icon": "twitter_accounts/profile_pictures/celly.jpg",
         "vibe": "thirsty fan"
     },
-    {
-        "handle": "TealTillIDie",
-        "name": "Teal Forever",
-        "icon": "twitter_accounts/profile_pictures/celly.jpg",
-        "vibe": "shark fan, pos, intense"
-    },
+    
     {
         "handle": "SlowMoCelly",
         "name": "all the best cellies",
         "icon": "twitter_accounts/profile_pictures/celly.jpg",
         "vibe": "hockey fan, pos, only pic and gifs"
     },
+    
     {
         
     }

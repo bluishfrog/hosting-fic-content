@@ -73,15 +73,19 @@ def render_media(media):
     if media.startswith("http://") or media.startswith("https://"):
         src = media
     else:
-        src = MEDIA_PREFIX + media
+        src = MEDIA_PREFIX + media + "?raw=true"
 
-    return f'<img class="twt-image" src="{src}">'
+    return src
+
 
 def render_header(account):
+
+    link_icon = render_media(account.get("icon"))
+
     return f"""
     <div class="twt-header">
         <div class="twt-icon-container">
-            <p><img class="twt-icon" src="{account.get("icon","")}"></p>
+            <p><img class="twt-icon" src="{link_icon}"></p>
         </div>
         <div class="twt-id">
             <p><span class="twt-name">{account.get("name","")}</span><br />
@@ -94,7 +98,7 @@ def render_header(account):
 def render_quote(quote, accounts):
     acc = accounts.get(quote["author"], {})
     if "media" in quote["content"]:
-            media_html = render_media(quote["content"].get("media"))
+            media_html = f'<img class="twt-image" src="{render_media(quote["content"].get("media"))}">'
 
     return f"""
     <div class="twt-quotebox">
@@ -109,8 +113,8 @@ def render_quote(quote, accounts):
         </div>
         <div class="twt-contentquote">
             <p>{quote["content"].get("text","")}</p>
-            <p>{media_html}</p>
         </div>
+        <p>{media_html}</p>
     </div>
     """
 
@@ -121,7 +125,7 @@ def render_replies(replies, accounts):
         acc = accounts.get(r["author"], {})
 
         if "media" in r["content"]:
-            media_html = render_media(r["content"].get("media"))
+            media_html = f'<img class="twt-image" src="{render_media(r["content"].get("media"))}">'
 
         html += f"""
         <hr class="twt-sep-reply">
@@ -137,8 +141,9 @@ def render_replies(replies, accounts):
                 </p>
                 <div class="twt-replycontent">
                     <p>{r["content"].get("text","")}</p>
-                    <p>{media_html}</p>
+                    
                 </div>
+                <p>{media_html}</p>
                 {render_reply_stats(r.get("stats", {}))}
             </div>
         </div>
@@ -155,20 +160,22 @@ def render_tweet(tweet, accounts):
     if "quoted" in content:
         quote_html = render_quote(content["quoted"], accounts)
 
+    tags_html = ""
     if "tags" in content: 
         tags_html = render_tags(content.get("tags", []))
 
+    media_html = ""
     if "media" in content:
-        media_html = render_media(content.get("media"))
+        media_html = f'<img class="twt-image" src="{render_media(content.get("media"))}">'
 
     return f"""
     <div class="twt">
         {render_header(acc)}
         <div class="twt-content">
             <p>{content.get("text","")}</p>
-            <p>{media_html}</p>
+            
         </div>
-
+        <p>{media_html}</p>
         <p>{tags_html}</p>
 
         {quote_html}
@@ -209,7 +216,7 @@ def main():
 ACCOUNTS_FILE = "twitter_accounts/lucky_bounce_lib.json"
 TIMELINE_FILE = "lucky_bounce/chp3_twt.json"
 OUTPUT_FILE = "output.html"
-MEDIA_PREFIX = "https://github.com/bluishfrog/hosting-fic-content/"
+MEDIA_PREFIX = "https://github.com/bluishfrog/hosting-fic-content/blob/main/"
 
 
 if __name__ == "__main__":
