@@ -9,9 +9,10 @@
         "stats": {
             "retweets": 249,
             "quote_retweets": 41,
-            "likes": 1482
+            "likes": 1.482
         }
     },
+
     {
         "type": "twitter",
         "author": "TealTillIDie",
@@ -23,11 +24,12 @@
                     ]
         },
         "stats": {
-            "retweets": 2974,
+            "retweets": 2.974,
             "quote_retweets": 973,
-            "likes": 23945
+            "likes": 23.945
         }
     },
+
     {
         "type": "twitter",
         "author": "newswithdestiel",
@@ -39,9 +41,168 @@
             "media": "lucky_bounce/src/ch3_meme_destiel.png"
         },
         "stats": {
-            "retweets": 14932,
-            "quote_retweets": 8429,
-            "likes": 84295
+            "retweets": 14.932,
+            "quote_retweets": 8.429,
+            "likes": 84.295
         }
-    }
+    },
+
+    {
+        "type": "twitter",
+        "author": "annielovesbirds",
+        "timestamp": "2026-11-10T09:08:00Z",
+        "content": {
+            "text": "not gonna lie i never thought i’d see the day two nhl players just casually say “yeah we’re in love” 😭❤️ "
+        },
+        "stats": {
+            "retweets": 2,
+            "quote_retweets": 0,
+            "likes": 26
+        }
+    },
+
+    {
+        "type": "twitter",
+        "author": "PenaltyBoxThoughts",
+        "timestamp": "2026-11-10T04:11:00Z",
+        "content": {
+            "text": "hockey culture shifting in real time… proud of them fr",
+            "tags": [
+                        "willmackisreal",
+                        "hockey",
+                        "nhl"
+                    ]
+        },
+        "stats": {
+            "retweets": 428,
+            "quote_retweets": 122,
+            "likes": 1.486
+        }
+    },
+
+    {
+        "type": "twitter",
+        "author": "flightlessbirds",
+        "timestamp": "2026-11-10T09:30:00Z",
+        "content": {
+            "text": "respect. takes guts in a league like that. wishing them nothing but the best 🙌"
+        },
+        "stats": {
+            "retweets": 35,
+            "quote_retweets": 5,
+            "likes": 372
+        }
+    },
+
+    {
+        "type": "twitter",
+        "author": "RespectfullyLooking",
+        "timestamp": "2026-11-10T10:13:00Z",
+        "content": {
+            "text": "If I wasn't so happy for them, I'd be mad that this doesn't just take one but two skilled players off the market. Like fuck off."
+        },
+        "stats": {
+            "retweets": 1,
+            "quote_retweets": 15,
+            "likes": 46
+        },
+        "replies": [
+            {
+                "author": "StillBelieveInTeal",
+                "replyingto": "RespectfullyLooking",
+                "timestamp": "2026-11-10T10:17:00Z",
+                "content": {
+                    "text": "You could always ask them if they need a third"
+                },
+                "stats": {
+                    "answers": 1,
+                    "retweets": 0,
+                    "likes": 12
+                }
+            },
+            {
+                "author": "RespectfullyLooking",
+                "replyingto": "StillBelieveInTeal",
+                "timestamp": "2026-11-10T10:18:00Z",
+                "content": {
+                    "text": "YO @ WILLMACK DO YOU NEED A THIRD"
+                },
+                "stats": {
+                    "answers": 7,
+                    "retweets": 97,
+                    "likes": 63
+                }
+            },
+            {
+                "author": "puckinhole",
+                "replyingto": "RespectfullyLooking",
+                "timestamp": "2026-11-10T10:18:00Z",
+                "content": {
+                    "text": "I see your vision but like... Even if they did agree, any third party would probably just end up third-wheeling and ignored"
+                },
+                "stats": {
+                    "answers": 3,
+                    "retweets": 7,
+                    "likes": 9
+                }
+            },
+            {
+                "author": "RespectfullyLooking",
+                "replyingto": "puckinhole",
+                "timestamp": "2026-11-10T10:21:00Z",
+                "content": {
+                    "text": "I don't mind watching. I wouldn't complain."
+                },
+                "stats": {
+                    "answers": 1,
+                    "retweets": 0,
+                    "likes": 42
+                }
+            },
+            {
+                "author": "RespectfullyLooking",
+                "replyingto": "puckinhole",
+                "timestamp": "2026-11-10T10:21:00Z",
+                "content": {
+                    "text": "I would take notes"
+                },
+                "stats": {
+                    "answers": 1,
+                    "retweets": 0,
+                    "likes": 33
+                }
+            },
+            {
+                "author": "puckinhole",
+                "replyingto": "RespectfullyLooking",
+                "timestamp": "2026-11-10T10:22:00Z",
+                "content": {
+                    "text": "Like a historian?"
+                },
+                "stats": {
+                    "answers": 1,
+                    "retweets": 0,
+                    "likes": 14
+                }
+            },
+            {
+                "author": "RespectfullyLooking",
+                "replyingto": "puckinhole",
+                "timestamp": "2026-11-10T10:24:00Z",
+                "content": {
+                    "text": "A very horny historian."
+                },
+                "stats": {
+                    "answers": 8,
+                    "retweets": 23,
+                    "likes": 143
+                }
+            }
+        ]
+    },
+
 ]
+
+
+
+

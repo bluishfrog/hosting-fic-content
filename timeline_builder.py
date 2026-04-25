@@ -54,10 +54,10 @@ def render_reply_stats(stats):
     return f"""
     <div class="twt-stat2">
         <div class="twt-social">
-            <p><img class="twt-socialimg" src="https://i.imgur.com/dJg9v1v.png">{stats.get("retweets",0)}</p>
+            <p><img class="twt-socialimg" src="https://i.imgur.com/dJg9v1v.png">{stats.get("answers",0)}</p>
         </div>
         <div class="twt-social">
-            <p><img class="twt-socialimg" src="https://i.imgur.com/UeOnwXk.png">{stats.get("quote_retweets",0)}</p>
+            <p><img class="twt-socialimg" src="https://i.imgur.com/UeOnwXk.png">{stats.get("retweets",0)}</p>
         </div>
         <div class="twt-social">
             <p><img class="twt-socialimg" src="https://i.imgur.com/eM56CN2.png">{stats.get("likes",0)}</p>
@@ -190,7 +190,7 @@ def render_tweet(tweet, accounts):
 
         {render_replies(tweet.get("replies", []), accounts)}
     </div>
-    <p></p>
+    <p> </p>
     """
 
 
@@ -206,7 +206,7 @@ def main():
         html_output += render_tweet(tweet, account_lookup)
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.write(html_output)
+        f.write(html_output )
 
     print(f"HTML generated → {OUTPUT_FILE}")
 

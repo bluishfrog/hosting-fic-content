@@ -2,6 +2,8 @@ Woah that's like huge
 
 I can't believe I am alive at the same time as the first nhl players tell the world they are IN LOVE with each other. Like we KNEW, but now we KNOW
 
+destiel meme
+
 not gonna lie i never thought i’d see the day two nhl players just casually say “yeah we’re in love” 😭❤️ 
 
 hockey culture shifting in real time… proud of them fr
@@ -16,7 +18,6 @@ If I wasn't so happy for them, I'd be mad that this doesn't just take one but tw
 > I would take notes
 > Like a historian?
 > A very horny historian.
-
 
 
 ok but are we gonna talk about how they’ve probably been dating this whole time??? the tension??? the locker room gossip??? 👀
@@ -60,6 +61,9 @@ i don’t usually do threads but i need to say this
 
 lowkey knew. idk how to explain it but i knew.
 
+when do you think they fell in love?
+> pic of them at rookie camp
+
 if they kiss on the ice after a goal i will simply pass away
 
 imagine getting a hit on someone and their boyfriend comes over??? i would retire on the spot
@@ -78,6 +82,8 @@ i keep rereading their announcement and i don’t really know how to put this in
 > happy for them. genuinely. and quietly, selfishly, a little hopeful too.
 
 this is gonna change the league whether people like it or not. respect.
+
+spinning celly
 
 they look so happy in that pic. that’s all that matters.
 > have you seen the video? 

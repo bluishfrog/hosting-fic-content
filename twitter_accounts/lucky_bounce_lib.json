@@ -17,21 +17,45 @@
         "icon": "twitter_accounts/profile_pictures/destiel_news.jpg",
         "vibe": "news acc, pos"
     },
-    
-    
+    {
+        "handle": "annielovesbirds",
+        "name": "Annie 🐦",
+        "icon": "twitter_accounts/profile_pictures/bird.jpg",
+        "vibe": "reg user, neut"
+    },
     {
         "handle": "PenaltyBoxThoughts",
         "name": "2 Minutes For Thinking",
-        "icon": "twitter_accounts/profile_pictures/celly.jpg",
+        "icon": "twitter_accounts/profile_pictures/penaltybox.jpg",
         "vibe": "hockey fan, neut, think pieces"
     },
     {
+        "handle": "@flightlessbirds",
+        "name": "Let's Go Pens!",
+        "icon": "twitter_accounts/profile_pictures/sc87_kissingcup.jpg",
+        "vibe": "penguins fan, pos"
+    },    
+    {
         "handle": "RespectfullyLooking",
-        "name": "Looking Respectfully",
-        "icon": "twitter_accounts/profile_pictures/celly.jpg",
-        "vibe": "thirsty fan"
+        "name": "SO Respectfully",
+        "icon": "twitter_accounts/profile_pictures/wm_warmups.jpg",
+        "vibe": "willmack fan, thirsty"
     },
-    
+    {
+        "handle": "@StillBelieveInTeal",
+        "name": "Alexandra 🦈",
+        "icon": "twitter_accounts/profile_pictures/shark.jpg",
+        "vibe": "optimistic sharks fan"
+    },
+    {
+        "handle": "@puckinhole",
+        "name": "🕳️",
+        "icon": "twitter_accounts/profile_pictures/hole.jpg",
+        "vibe": "hockey fan, horny"
+    },
+
+
+
     {
         "handle": "SlowMoCelly",
         "name": "all the best cellies",
