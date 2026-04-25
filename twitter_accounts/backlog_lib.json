@@ -35,12 +35,7 @@
         "icon": "tbd",
         "vibe": "hockey fan, neut"
     },
-    {
-        "handle": "@PenaltyBoxThoughts",
-        "name": "2 Minutes For Thinking",
-        "icon": "tbd",
-        "vibe": "hockey fan, pos, think pieces"
-    },
+    
     {
         "handle": "@ZamboniVibes",
         "name": "Fresh Ice Energy",
@@ -102,18 +97,6 @@
         "vibe": "hockey fan, neut, analyst"
     },
     {
-        "handle": "@SlowMoCelly",
-        "name": "all the best cellies",
-        "icon": "tbd",
-        "vibe": "hockey fan, pos, only pic and gifs"
-    },
-    {
-        "handle": "@RespectfullyLooking",
-        "name": "Looking Respectfully",
-        "icon": "tbd",
-        "vibe": "thirsty fan"
-    },
-    {
         "handle": "@HockeyButMakeItPersonal",
         "name": "It’s Personal Now",
         "icon": "tbd",
@@ -124,12 +107,6 @@
         "name": "Bench Reactions Only",
         "icon": "tbd",
         "vibe": "niche content"
-    },
-    {
-        "handle": "@NoticingThingsRespectfully",
-        "name": "Observing Respectfully",
-        "icon": "tbd",
-        "vibe": "thirsty fan"
     },
     {
         "handle": "@PuckAndExistentialDread",
@@ -166,12 +143,6 @@
         "name": "Offside Emotionally",
         "icon": "tbd",
         "vibe": "sad fan"
-    },
-    {
-        "handle": "@TealTillIDie",
-        "name": "Teal Forever",
-        "icon": "tbd",
-        "vibe": "diehard sharks fan"
     },
     {
         "handle": "@SharksHeartbreak",
