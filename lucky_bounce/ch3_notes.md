@@ -76,8 +76,6 @@ imagine getting a hit on someone and their boyfriend comes over??? i would retir
 
 the replies being mostly supportive??? am i still on twitter???
 
-////
-
 i keep rereading their announcement and i don't really know how to put this into words without sounding dramatic, but it genuinely made me sit down and just… breathe for a second.
 > i grew up around hockey. not pro level, nothing like that, just rinks and early mornings and cold gear bags and all of it. and there was always this unspoken rule that some things just didn't belong in that world.
 > so you learn to compartmentalize. you love the game in one box, and you keep yourself somewhere else entirely.
@@ -95,6 +93,8 @@ you know the sharks are sooooo fucking done with them lmao. in the locker room. 
 my name is william charles patrick smith hockey and my golden curls are perfect and my eyes are so blue and I have the most disgusting dangle and generational talent macklin celebrini is in love with me... girl, fuck you!!!!!
 
 spinning celly
+
+///
 
 they look so happy in that pic. that's all that matters.
 > have you seen the video? 

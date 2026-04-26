@@ -131,9 +131,30 @@
         "icon": "twitter_accounts/profile_pictures/skates.jpg",
         "vibe": "hockey romance fan"
     },
-
-
-
+    {
+        "handle": "pakersluck",
+        "name": "Parker",
+        "icon": "twitter_accounts/profile_pictures/hockey_gen_2.jpg",
+        "vibe": "past player, pos"
+    },
+    {
+        "handle": "GoalHornAddict",
+        "name": "Goal Horn Enthusiast",
+        "icon": "twitter_accounts/profile_pictures/goalhorn.jpg",
+        "vibe": "hockey fan, neut"
+    },
+    {
+        "handle": "BrokenStickEra",
+        "name": "Emmy",
+        "icon": "twitter_accounts/profile_pictures/wm_ice_3.jpg",
+        "vibe": "willmack fan, pos"
+    },
+    {
+        "handle": "IceIsSlipperyBro",
+        "name": "woah hockey 🥵",
+        "icon": "twitter_accounts/profile_pictures/wm_stare_1.jpg",
+        "vibe": "willmack fan, pos, horny"
+    },
     {
         "handle": "SlowMoCelly",
         "name": "all the best cellies",

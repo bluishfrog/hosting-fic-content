@@ -521,7 +521,7 @@
                 "replyingto": "2shark71",
                 "content": {
                     "media": "lucky_bounce/src/wm_prospect_2.jpg"
-                }                
+                }
             }
         ]
     },
@@ -570,9 +570,140 @@
             ]
         },
         "stats": "small"
+    },
+    {
+        "type": "twitter",
+        "author": "pakersluck",
+        "timestamp": "ch3",
+        "content": {
+            "text": "i keep rereading their announcement and i don't really know how to put this into words without sounding dramatic, but it genuinely made me sit down and just… breathe for a second.",
+            "tags": [
+                "hockey",
+                "phd",
+                "loveislove",
+                "youcanplay",
+                "HockeyIsForEveryone"
+            ]
+        },
+        "stats": "big",
+        "replies": [
+            {
+                "author": "pakersluck",
+                "replyingto": "pakersluck",
+                "content": {
+                    "text": "i grew up around hockey. not pro level, nothing like that, just rinks and early mornings and cold gear bags and all of it. and there was always this unspoken rule that some things just didn't belong in that world."
+                }
+            },
+            {
+                "author": "pakersluck",
+                "replyingto": "pakersluck",
+                "content": {
+                    "text": "so you learn to compartmentalize. you love the game in one box, and you keep yourself somewhere else entirely."
+                }
+            },
+            {
+                "author": "pakersluck",
+                "replyingto": "pakersluck",
+                "content": {
+                    "text": "seeing two players at that level just say “this is us” out loud… it feels unreal in a way i can't explain properly."
+                }
+            },
+            {
+                "author": "pakersluck",
+                "replyingto": "pakersluck",
+                "content": {
+                    "text": "not because it's shocking. but because it's real. public. unhidden."
+                }
+            },
+            {
+                "author": "pakersluck",
+                "replyingto": "pakersluck",
+                "content": {
+                    "text": "there are people who won't understand why this matters. but i think a lot of us do."
+                }
+            },
+            {
+                "author": "pakersluck",
+                "replyingto": "pakersluck",
+                "content": {
+                    "text": "for once, the message isn't “be careful.” it's just… “be.”"
+                }
+            },
+            {
+                "author": "pakersluck",
+                "replyingto": "pakersluck",
+                "content": {
+                    "text": "and that means more than I can say without overthinking every sentence."
+                }
+            },
+            {
+                "author": "pakersluck",
+                "replyingto": "pakersluck",
+                "content": {
+                    "text": "happy for them. genuinely. and quietly, selfishly, a little hopeful too."
+                }
+            }
+        ]
+    },
+    {
+        "type": "twitter",
+        "author": "GoalHornAddict",
+        "timestamp": "ch3",
+        "content": {
+            "text": "this is gonna change the league whether people like it or not. respect.",
+            "tags": [
+                "hockey",
+                "nhl"
+            ]
+        },
+        "stats": "mid"
+    },
+    {
+        "type": "twitter",
+        "author": "BrokenStickEra",
+        "timestamp": "ch3",
+        "content": {
+            "text": "you know the sharks are sooooo fucking done with them lmao. in the locker room. in the showers. like they fight not to share a hotel wall with them haha",
+            "tags": [
+                "willmack"
+            ]
+        },
+        "stats": "small"
+    },
+    {
+        "type": "twitter",
+        "author": "BrokenStickEra",
+        "timestamp": "ch3",
+        "content": {
+            "text": "you know the sharks are sooooo fucking done with them lmao. in the locker room. in the showers. like they fight not to share a hotel wall with them haha",
+            "tags": [
+                "willmack"
+            ]
+        },
+        "stats": "small"
+    },
+    {
+        "type": "twitter",
+        "author": "IceIsSlipperyBro",
+        "timestamp": "ch3",
+        "content": {
+            "text": "my name is william charles patrick smith hockey and my golden curls are perfect and my eyes are so blue and I have the most disgusting dangle and generational talent macklin celebrini is in love with me... girl, fuck you!!!!!",
+            "tags": [
+                "willmackisreal"
+            ],
+            "media": "lucky_bounce/src/ws2_media_1.png"
+        },
+        "stats": "mid"
+    },
+    {
+        "type": "twitter",
+        "author": "SlowMoCelly",
+        "timestamp": "ch3",
+        "content": {
+            "media": "lucky_bounce/src/wm_spinningcelly.gif"
+        },
+        "stats": "big"
     }
-    
-
 ]
 
 
