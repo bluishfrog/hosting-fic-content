@@ -19,12 +19,7 @@
         "vibe": "hockey fan, pos, edgy"
     },
     
-    {
-        "handle": "@GoalHornAddict",
-        "name": "Goal Horn Enthusiast",
-        "icon": "tbd",
-        "vibe": "hockey fan, neut"
-    },
+    
     
     
     {
@@ -51,24 +46,14 @@
         "icon": "tbd",
         "vibe": "gossip fan, pos"
     },
-    {
-        "handle": "@IceIsSlipperyBro",
-        "name": "woah hockey 🥵",
-        "icon": "tbd",
-        "vibe": "willmack fan, pos, horny"
-    },
+
     {
         "handle": "@ChirpFactory",
         "name": "chrip chirp bitch",
         "icon": "tbd",
         "vibe": "hockey fan, pos"
     },
-    {
-        "handle": "@BrokenStickEra",
-        "name": "Emmy",
-        "icon": "tbd",
-        "vibe": "willmack fan, pos, doomposter"
-    },
+   
     {
         "handle": "@HelmetHairEnthusiast",
         "name": "Terri",
@@ -87,42 +72,22 @@
         "icon": "tbd",
         "vibe": "dramatic fan"
     },
-    {
-        "handle": "@EyesOnTheBench",
-        "name": "Bench Reactions Only",
-        "icon": "tbd",
-        "vibe": "niche content"
-    },
-    {
-        "handle": "@PuckAndExistentialDread",
-        "name": "Pucks & Problems",
-        "icon": "tbd",
-        "vibe": "existential fan"
-    },
+ 
+    
     {
         "handle": "@IcingIsACrime",
         "name": "Icing Enforcement Squad",
         "icon": "tbd",
         "vibe": "rules nerd"
-    }
+    },
     {
         "handle": "@GoalieUnionRep",
         "name": "Goalie Rights Advocate",
         "icon": "tbd",
         "vibe": "goalie apologist"
     },
-    {
-        "handle": "@DumpAndChaseLife",
-        "name": "Dump & Chase Forever",
-        "icon": "tbd",
-        "vibe": "old school fan"
-    },
-    {
-        "handle": "@SharksHeartbreak",
-        "name": "San Jose Pain",
-        "icon": "tbd",
-        "vibe": "doomer sharks fan"
-    },
+
+
     {
         "handle": "@BayAreaBreakaways",
         "name": "Bay Area Hockey",

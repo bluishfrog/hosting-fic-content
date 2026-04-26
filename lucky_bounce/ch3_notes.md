@@ -94,8 +94,6 @@ my name is william charles patrick smith hockey and my golden curls are perfect 
 
 spinning celly
 
-///
-
 they look so happy in that pic. that's all that matters.
 > have you seen the video? 
 > what video?

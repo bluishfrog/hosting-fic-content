@@ -160,5 +160,42 @@
         "name": "all the best cellies",
         "icon": "twitter_accounts/profile_pictures/celly.jpg",
         "vibe": "hockey fan, pos, only pic and gifs"
+    },
+    {
+        "handle": "SharksHeartbreak",
+        "name": "NO HEARTBREAK TODAY",
+        "icon": "twitter_accounts/profile_pictures/wm_hold.jpg",
+        "vibe": "doomer sharks fan, pos"
+    },
+    {
+        "handle": "DumbAndDumber_",
+        "name": "Dumb and Dumber",
+        "icon": "twitter_accounts/profile_pictures/wm_dumbanddumber.jpg",
+        "vibe": "willmack fan, pos"
+    },
+    {
+        "handle": "EyesOnTheBench",
+        "name": "Bench Reactions Only",
+        "icon": "twitter_accounts/profile_pictures/hockey_bench.jpg",
+        "vibe": "niche content, pos"
+    },
+    {
+        "handle": "sharksinmemes",
+        "name": "Memes Only",
+        "icon": "twitter_accounts/profile_pictures/wm_ice_5.jpg",
+        "vibe": "shark memes, pos"
+    },
+    {
+        "handle": "PuckAndExistentialDread",
+        "name": "Pucks & Problems",
+        "icon": "twitter_accounts/profile_pictures/hockey_rink.jpg",
+        "vibe": "hockey fan, neutral"
+    },
+    {
+        "handle": "smellingsalts",
+        "name": "salt me",
+        "icon": "twitter_accounts/profile_pictures/smellingsalts.jpg",
+        "vibe": "willmack fan, pos"
     }
+
 ]

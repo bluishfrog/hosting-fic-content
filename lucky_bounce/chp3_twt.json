@@ -547,14 +547,13 @@
                 "willmackisreal"
             ]
         },
-        "stats": "medium",
+        "stats": "big",
         "replies": [
             {
                 "author": "SharkTankStress",
                 "replyingto": "TooManyMenOnMyMind",
                 "content": {
-                    "text": "this happened to my good friend Parker Wotherspoon <a href=\"https://www.youtube.com/watch?v=mb3CRFpLcy0\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.youtube.com/watch?v=mb3CRFpLcy0</a>"
-                }
+                    "text": "this happened to my good friend Parker Wotherspoon <a href=\"https://www.youtube.com/watch?v=mb3CRFpLcy0\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.youtube.com/watch?v=mb3CRFpLcy0</a>"                }
             }
         ]
     },
@@ -579,7 +578,7 @@
             "text": "i keep rereading their announcement and i don't really know how to put this into words without sounding dramatic, but it genuinely made me sit down and just… breathe for a second.",
             "tags": [
                 "hockey",
-                "phd",
+                "nhl",
                 "loveislove",
                 "youcanplay",
                 "HockeyIsForEveryone"
@@ -672,18 +671,6 @@
     },
     {
         "type": "twitter",
-        "author": "BrokenStickEra",
-        "timestamp": "ch3",
-        "content": {
-            "text": "you know the sharks are sooooo fucking done with them lmao. in the locker room. in the showers. like they fight not to share a hotel wall with them haha",
-            "tags": [
-                "willmack"
-            ]
-        },
-        "stats": "small"
-    },
-    {
-        "type": "twitter",
         "author": "IceIsSlipperyBro",
         "timestamp": "ch3",
         "content": {
@@ -691,7 +678,7 @@
             "tags": [
                 "willmackisreal"
             ],
-            "media": "lucky_bounce/src/ws2_media_1.png"
+            "media": "lucky_bounce/src/ws2_media_1.jpg"
         },
         "stats": "mid"
     },
@@ -700,14 +687,233 @@
         "author": "SlowMoCelly",
         "timestamp": "ch3",
         "content": {
+            "tags": [
+                "allthebestcellies",
+                "nhl",
+                "menshockey"
+            ],
             "media": "lucky_bounce/src/wm_spinningcelly.gif"
+        },
+        "stats": "big"
+    },
+    {
+        "type": "twitter",
+        "author": "SharksHeartbreak",
+        "timestamp": "ch3",
+        "content": {
+            "text": "they look so happy in that pic. that's all that matters.",
+            "tags": [
+                "willmackisreal"
+            ]
+        },
+        "stats": "big",
+        "replies": [
+            {
+                "author": "2shark71",
+                "replyingto": "SharksHeartbreak",
+                "content": {
+                    "text": "have you seen the video?"
+                }
+            },
+            {
+            
+                "author": "SharksHeartbreak",
+                "replyingto": "2shark71",
+                "content": {
+                    "text": "what video?"
+                }
+            },
+            {
+                "author": "2shark71",
+                "replyingto": "SharksHeartbreak",
+                "content": {
+                    "text": "oh you're in for a treat"
+                }
+            },
+            {
+            
+                "author": "SharksHeartbreak",
+                "replyingto": "2shark71",
+                "content": {
+                    "text": "do you have a link? 👀"
+                }
+            },
+            {
+            
+                "author": "SharksHeartbreak",
+                "replyingto": "2shark71",
+                "content": {
+                    "text": "yo come back"
+                }
+            },
+            {
+            
+                "author": "SharksHeartbreak",
+                "replyingto": "2shark71",
+                "content": {
+                    "text": "PLEASE COME BACK"
+                }
+            },
+            {
+            
+                "author": "SharksHeartbreak",
+                "replyingto": "2shark71",
+                "content": {
+                    "text": "okay found it on my own and wtf is this. Like what in the fucking netlix romance movie special over the top romance bullshit is this?"
+                }
+            }
+        ]
+    },
+    {
+        "type": "twitter",
+        "author": "DumbAndDumber_",
+        "timestamp": "ch3",
+        "content": {
+            "text": "ok but which one said 'i love you' first be honest",
+            "tags": [
+                "willmackisreal"
+            ]
+        },
+        "stats": "mid",
+        "replies": [
+            {
+                "author": "tealbestboyfriends",
+                "replyingto": "DumbAndDumber_",
+                "content": {
+                    "text": "will knew first but mack said it first. Probably by accident."
+                }
+            },
+            {
+            
+                "author": "DumbAndDumber_",
+                "replyingto": "tealbestboyfriends",
+                "content": {
+                    "text": "I need a complete timeline"
+                }
+            },
+            {
+                "author": "tealbestboyfriends",
+                "replyingto": "DumbAndDumber_",
+                "content": {
+                    "text": "the way i should mind my business and yet here i am, absolutely not doing that"
+                }
+            }
+        ]
+    },
+    {
+        "type": "twitter",
+        "author": "EyesOnTheBench",
+        "timestamp": "ch3",
+        "content": {
+            "text": "if you're mad about this you need to log off and go outside",
+            "tags": [
+                "nhl",
+                "hockey"
+            ]
+        },
+        "stats": "hit"
+    },
+    {
+        "type": "twitter",
+        "author": "TealTillIDie",
+        "timestamp": "ch3",
+        "content": {
+            "text": "manifesting them winning the cup together",
+            "tags": [
+                "forgaylove",
+                "willmackisreal"
+            ],
+            "media": "lucky_bounce/src/wm_ice_4.jpg"
+        },
+        "stats": "mid"
+    },
+    {
+        "type": "twitter",
+        "author": "sharksinmemes",
+        "timestamp": "ch3",
+        "content": {
+            "tags": [
+                "sharksinmemes",
+                "willmackisreal"
+            ],
+            "media": "lucky_bounce/src/ch3_meme_space.png"
+        },
+        "stats": "hit"
+    },
+    {
+        "type": "twitter",
+        "author": "CantWinInRegulation",
+        "timestamp": "ch3",
+        "content": {
+            "text": "old dudes on facebook about to write ESSAYS i can feel it"
+        },
+        "stats": "small",
+        "replies": [
+            {
+                "author": "flightlessbirds",
+                "replyingto": "CantWinInRegulation",
+                "content": {
+                    "text": "people saying 'keep politics out of sports' like be serious"
+                }
+            }
+        ]
+    },
+    {
+        "type": "twitter",
+        "author": "tealbestboyfriends",
+        "timestamp": "ch3",
+        "content": {
+            "text": "i just screamed so loud my neighbor knocked on my door this is MY STANLEY CUP",
+            "tags": [
+                "willmackisreal"
+            ]
+        },
+        "stats": "mid"
+    },
+    {
+        "type": "twitter",
+        "author": "IceIsSlipperyBro",
+        "timestamp": "ch3",
+        "content": {
+            "text": "this is either the healthiest thing to ever happen to the nhl or the start of the messiest era imaginable and i'm SAT"
+        },
+        "stats": "priv"
+    },
+    {
+        "type": "twitter",
+        "author": "IceIsSlipperyBro",
+        "timestamp": "ch3",
+        "content": {
+            "text": "this is either the healthiest thing to ever happen to the nhl or the start of the messiest era imaginable and i'm SAT"
+        },
+        "stats": "priv"
+    },
+    {
+        "type": "twitter",
+        "author": "PuckAndExistentialDread",
+        "timestamp": "ch3",
+        "content": {
+            "text": "some of y'all are way too invested like relax they're just dating 😭",
+            "tags": [
+                "hockey"
+            ]
+        },
+        "stats": "medium"
+    },
+    {
+        "type": "twitter",
+        "author": "smellingsalts",
+        "timestamp": "ch3",
+        "content": {
+            "text": "everyone having opinions on the announcement. Meanwile I haven't even gotten over this one yet...",
+            "tags": [
+                "smellingsaltrituals",
+                "willmackisreal"
+            ],
+            "media": "lucky_bounce/src/wm_smellingsalts.gif"
         },
         "stats": "big"
     }
 ]
-
-
-
-
 
 
