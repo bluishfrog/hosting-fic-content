@@ -30,7 +30,7 @@
         "vibe": "hockey fan, neut, think pieces"
     },
     {
-        "handle": "@flightlessbirds",
+        "handle": "flightlessbirds",
         "name": "Let's Go Pens!",
         "icon": "twitter_accounts/profile_pictures/sc87_kissingcup.jpg",
         "vibe": "penguins fan, pos"
@@ -42,16 +42,52 @@
         "vibe": "willmack fan, thirsty"
     },
     {
-        "handle": "@StillBelieveInTeal",
+        "handle": "StillBelieveInTeal",
         "name": "Alexandra 🦈",
         "icon": "twitter_accounts/profile_pictures/shark.jpg",
         "vibe": "optimistic sharks fan"
     },
     {
-        "handle": "@puckinhole",
+        "handle": "puckinhole",
         "name": "🕳️",
         "icon": "twitter_accounts/profile_pictures/hole.jpg",
         "vibe": "hockey fan, horny"
+    },
+    {
+        "handle": "2shark71",
+        "name": "i don't know how I managed to get this handle",
+        "icon": "twitter_accounts/profile_pictures/podcast.jpg",
+        "vibe": "willmack fan, pos"
+    },
+    {
+        "handle": "CantWinInRegulation",
+        "name": "Regulation Is Optional",
+        "icon": "twitter_accounts/profile_pictures/hockey_gen_1.jpg",
+        "vibe": "hockey fan, neg"
+    },
+    {
+        "handle": "ZamboniRating",
+        "name": "Zammoths currently winning",
+        "icon": "twitter_accounts/profile_pictures/zammoth.jpg",
+        "vibe": "hockey fan, pos"
+    },
+    {
+        "handle": "birdsandbees",
+        "name": "pollination thoughts",
+        "icon": "twitter_accounts/profile_pictures/sprout.jpg",
+        "vibe": "hockey fan, pos"
+    },
+    {
+        "handle": "BayAreaBreakaways",
+        "name": "Go Sharks!!!",
+        "icon": "twitter_accounts/profile_pictures/pm12_ice.jpg",
+        "vibe": "regional fan, pos"
+    },
+    {
+        "handle": "atthecottage",
+        "name": "wait is this irl hr?",
+        "icon": "twitter_accounts/profile_pictures/hr_1.jpg",
+        "vibe": "hr fan, pos"
     },
 
 
@@ -61,9 +97,5 @@
         "name": "all the best cellies",
         "icon": "twitter_accounts/profile_pictures/celly.jpg",
         "vibe": "hockey fan, pos, only pic and gifs"
-    },
-    
-    {
-        
     }
 ]

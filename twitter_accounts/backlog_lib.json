@@ -18,12 +18,7 @@
         "icon": "tbd",
         "vibe": "hockey fan, pos, edgy"
     },
-    {
-        "handle": "@CantWinInRegulation",
-        "name": "Regulation Is Optional",
-        "icon": "tbd",
-        "vibe": "hockey fan, neg"
-    },
+    
     {
         "handle": "@GoalHornAddict",
         "name": "Goal Horn Enthusiast",
@@ -31,12 +26,7 @@
         "vibe": "hockey fan, neut"
     },
     
-    {
-        "handle": "@ZamboniVibes",
-        "name": "Fresh Ice Energy",
-        "icon": "tbd",
-        "vibe": "hockey fan, pos"
-    },
+    
     {
         "handle": "@PuckLuckPlease",
         "name": "Manifesting Puck Luck",

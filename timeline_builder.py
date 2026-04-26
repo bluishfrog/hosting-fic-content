@@ -1,8 +1,42 @@
 import json
 from datetime import datetime
-
+import re
 
 # --------- HELPERS ---------
+
+def cleanup_html(html):
+    # 1. Remove empty lines
+    lines = [line.strip() for line in html.splitlines() if line.strip()]
+
+    cleaned = "\n".join(lines)
+
+    # 2. Remove empty <p></p> INSIDE .twt blocks only
+    def clean_twt_block(match):
+        block = match.group(0)
+        # remove empty <p> or <p> </p> inside tweet
+        block = re.sub(r"<p>\s*</p>", "", block)
+        return block
+
+    cleaned = re.sub(r'<div class="twt">.*?</div>', clean_twt_block, cleaned, flags=re.DOTALL)
+
+    # 3. Pretty format (basic indentation)
+    indent = 0
+    pretty_lines = []
+
+    for line in cleaned.splitlines():
+        # decrease indent on closing tags
+        if re.match(r"</", line):
+            indent -= 1
+
+        pretty_lines.append("    " * max(indent, 0) + line)
+
+        # increase indent on opening tags (but not self-closing or inline)
+        if re.match(r"<[^/!][^>]*[^/]>", line) and not re.search(r"</", line):
+            indent += 1
+
+    return "\n".join(pretty_lines)
+
+
 def load_json(path):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
@@ -122,8 +156,10 @@ def render_quote(quote, accounts):
 def render_replies(replies, accounts):
     html = ""
     for r in replies:
-        acc = accounts.get(r["author"], {})
+        fromacc = accounts.get(r["author"], {})
+        toacc = accounts.get(r["replyingto"], {})
 
+        media_html = ""
         if "media" in r["content"]:
             media_html = f'<img class="twt-image" src="{render_media(r["content"].get("media"))}">'
 
@@ -131,13 +167,13 @@ def render_replies(replies, accounts):
         <hr class="twt-sep-reply">
         <div class="twt-replybox">
             <div class="twt-icon-replycontainer">
-                <p><img class="twt-icon" src="{acc.get("icon","")}"></p>
+                <p><img class="twt-icon" src="{render_media(fromacc.get("icon",""))}"></p>
             </div>
             <div class="twt-replycontainer">
-                <p><span class="twt-name">{acc.get("name","")}</span> 
-                <span class="twt-handle">@{acc.get("handle","")} · {format_timestamp_quote_and_reply(r["timestamp"])}</span><br />
+                <p><span class="twt-name">{fromacc.get("name","")}</span> 
+                <span class="twt-handle">@{fromacc.get("handle","")} · {format_timestamp_quote_and_reply(r["timestamp"])}</span><br />
                 <span class="twt-handle">Replying to</span> 
-                <span class="twt-hl">@{r.get("replyingto","")}</span>
+                <span class="twt-hl">@{toacc.get("handle","")}</span>
                 </p>
                 <div class="twt-replycontent">
                     <p>{r["content"].get("text","")}</p>
@@ -205,8 +241,10 @@ def main():
     for tweet in timeline:
         html_output += render_tweet(tweet, account_lookup)
 
+    html_output = cleanup_html(html_output)  # <-- ADD THIS
+
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.write(html_output )
+        f.write(html_output)
 
     print(f"HTML generated → {OUTPUT_FILE}")
 

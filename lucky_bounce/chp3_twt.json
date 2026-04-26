@@ -52,7 +52,7 @@
         "author": "annielovesbirds",
         "timestamp": "2026-11-10T09:08:00Z",
         "content": {
-            "text": "not gonna lie i never thought i’d see the day two nhl players just casually say “yeah we’re in love” 😭❤️ "
+            "text": "not gonna lie i never thought i'd see the day two nhl players just casually say “yeah we're in love” 😭❤️ "
         },
         "stats": {
             "retweets": 2,
@@ -199,10 +199,105 @@
                 }
             }
         ]
+    },
+    {
+        "type": "twitter",
+        "author": "2shark71",
+        "timestamp": "ch3",
+        "content": {
+            "text": "ok but are we gonna talk about how they've probably been dating this whole time??? the tension??? the locker room gossip??? 👀"
+        },
+        "stats": "small"
+    },
+    {
+        "type": "twitter",
+        "author": "CantWinInRegulation",
+        "timestamp": "ch3",
+        "content": {
+            "text": "maybe they should spend less time going on dates and more time going to practice. Maintenance day, sure. Tragic to see them waste their talent like this."
+        },
+        "stats": "mid"
+    },
+    {
+        "type": "twitter",
+        "author": "ZamboniRating",
+        "timestamp": "ch3",
+        "content": {
+            "text": "this is so important for younger players who feel like they have to hide. representation matters, even in hockey"
+        },
+        "stats": "hit",
+        "replies": [
+            {
+                "author": "PenaltyBoxThoughts",
+                "replyingto": "ZamboniRating",
+                "content": {
+                    "text": "especially in hockey"
+                },
+                "stats": "mid"
+            }
+        ]
+    },
+    {
+        "type": "twitter",
+        "author": "birdsandbees",
+        "timestamp": "ch3",
+        "content": {
+            "text": "okay but I am obsessed I have nothing respectful to say, like ngl I would love to go to paris with them 😳"
+        },
+        "stats": "mid"
+    },
+    {
+        "type": "twitter",
+        "author": "BayAreaBreakaways",
+        "timestamp": "2026-11-10T10:40:00Z",
+        "content": {
+            "text": "y'all better not be weird about this. just let them be happy."
+        },
+        "stats": "small",
+        "replies": [
+            {
+                "author": "RespectfullyLooking",
+                "replyingto": "BayAreaBreakaways",
+                "content": {
+                    "text": "I would never be weird about this"
+                }
+            },
+            {
+                "author": "BayAreaBreakaways",
+                "replyingto": "RespectfullyLooking",
+                "content": {
+                    "text": "Your last tweet is literally you asking to watch them have sex"
+                }
+            },
+            {
+                "author": "RespectfullyLooking",
+                "replyingto": "BayAreaBreakaways",
+                "content": {
+                    "text": "and?"
+                }
+            }
+        ]
+    },
+    {
+        "type": "twitter",
+        "author": "atthecottage",
+        "timestamp": "ch3",
+        "content": {
+            "text": "they really said 'yeah we're dating' and expected us to act surprised. Like yeah, we KNOW."
+        },
+        "stats": "mid",
+        "replies": [
+            {
+                "author": "PenaltyBoxThoughts",
+                "replyingto": "ZamboniRating",
+                "content": {
+                    "text": "look, I get where you're coming from, of course, everyone who paid attention had seen it for a long time. But it's still a big deal to actually have them announce it for real. Like we've known but now we *know*"
+                },
+                "stats": "big"
+            }
+        ]
     }
 
 ]
-
-
 
 
