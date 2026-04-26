@@ -49,7 +49,7 @@
         "author": "annielovesbirds",
         "timestamp": "2026-11-10T09:08:00Z",
         "content": {
-            "text": "not gonna lie i never thought i'd see the day two nhl players just casually say “yeah we're in love” 😭❤️ "
+            "text": "not gonna lie i never thought i'd see the day two nhl players just casually say \u201cyeah we're in love\u201d \ud83d\ude2d\u2764\ufe0f "
         },
         "stats": {
             "retweets": 2,
@@ -62,7 +62,7 @@
         "author": "PenaltyBoxThoughts",
         "timestamp": "2026-11-10T04:11:00Z",
         "content": {
-            "text": "hockey culture shifting in real time… proud of them fr",
+            "text": "hockey culture shifting in real time\u2026 proud of them fr",
             "tags": [
                 "willmackisreal",
                 "hockey",
@@ -80,7 +80,7 @@
         "author": "flightlessbirds",
         "timestamp": "2026-11-10T09:30:00Z",
         "content": {
-            "text": "respect. takes guts in a league like that. wishing them nothing but the best 🙌"
+            "text": "respect. takes guts in a league like that. wishing them nothing but the best \ud83d\ude4c"
         },
         "stats": {
             "retweets": 35,
@@ -134,7 +134,7 @@
             {
                 "author": "puckinhole",
                 "replyingto": "RespectfullyLooking",
-                "timestamp": "2026-11-10T10:18:00Z",
+                "timestamp": "2026-11-10T10:20:00Z",
                 "content": {
                     "text": "I see your vision but like... Even if they did agree, any third party would probably just end up third-wheeling and ignored"
                 },
@@ -160,7 +160,7 @@
             {
                 "author": "RespectfullyLooking",
                 "replyingto": "puckinhole",
-                "timestamp": "2026-11-10T10:21:00Z",
+                "timestamp": "2026-11-10T10:23:00Z",
                 "content": {
                     "text": "I would take notes"
                 },
@@ -173,7 +173,7 @@
             {
                 "author": "puckinhole",
                 "replyingto": "RespectfullyLooking",
-                "timestamp": "2026-11-10T10:22:00Z",
+                "timestamp": "2026-11-10T10:24:00Z",
                 "content": {
                     "text": "Like a historian?"
                 },
@@ -186,7 +186,7 @@
             {
                 "author": "RespectfullyLooking",
                 "replyingto": "puckinhole",
-                "timestamp": "2026-11-10T10:24:00Z",
+                "timestamp": "2026-11-10T10:27:00Z",
                 "content": {
                     "text": "A very horny historian."
                 },
@@ -201,28 +201,36 @@
     {
         "type": "twitter",
         "author": "2shark71",
-        "timestamp": "ch3",
+        "timestamp": "2026-11-10T06:02:03Z",
         "content": {
-            "text": "ok but are we gonna talk about how they've probably been dating this whole time??? the tension??? the locker room gossip??? 👀",
+            "text": "ok but are we gonna talk about how they've probably been dating this whole time??? the tension??? the locker room gossip??? \ud83d\udc40",
             "tags": [
                 "willmackisreal"
             ]
         },
-        "stats": "small"
+        "stats": {
+            "likes": 93,
+            "retweets": 17,
+            "quote_retweets": 8
+        }
     },
     {
         "type": "twitter",
         "author": "CantWinInRegulation",
-        "timestamp": "ch3",
+        "timestamp": "2026-11-10T12:45:21Z",
         "content": {
             "text": "maybe they should spend less time going on dates and more time going to practice. Maintenance day, sure. Tragic to see them waste their talent like this."
         },
-        "stats": "mid"
+        "stats": {
+            "likes": 367,
+            "retweets": 87,
+            "quote_retweets": 35
+        }
     },
     {
         "type": "twitter",
         "author": "ZamboniRating",
-        "timestamp": "ch3",
+        "timestamp": "2026-11-10T04:55:00Z",
         "content": {
             "text": "this is so important for younger players who feel like they have to hide. representation matters, even in hockey",
             "tags": [
@@ -231,7 +239,11 @@
                 "nhl"
             ]
         },
-        "stats": "hit",
+        "stats": {
+            "likes": 102940,
+            "retweets": 21969,
+            "quote_retweets": 3558
+        },
         "replies": [
             {
                 "author": "PenaltyBoxThoughts",
@@ -239,18 +251,27 @@
                 "content": {
                     "text": "especially in hockey"
                 },
-                "stats": "mid"
+                "stats": {
+                    "likes": 538,
+                    "retweets": 70,
+                    "answers": 51
+                },
+                "timestamp": "2026-11-10T04:59:00Z"
             }
         ]
     },
     {
         "type": "twitter",
         "author": "birdsandbees",
-        "timestamp": "ch3",
+        "timestamp": "2026-11-10T08:44:07Z",
         "content": {
-            "text": "okay but I am obsessed I have nothing respectful to say, like ngl I would love to go to paris with them 😳"
+            "text": "okay but I am obsessed I have nothing respectful to say, like ngl I would love to go to paris with them \ud83d\ude33"
         },
-        "stats": "mid"
+        "stats": {
+            "likes": 321,
+            "retweets": 31,
+            "quote_retweets": 11
+        }
     },
     {
         "type": "twitter",
@@ -259,42 +280,68 @@
         "content": {
             "text": "y'all better not be weird about this. just let them be happy."
         },
-        "stats": "small",
+        "stats": {
+            "likes": 66,
+            "retweets": 10,
+            "quote_retweets": 2
+        },
         "replies": [
             {
                 "author": "RespectfullyLooking",
                 "replyingto": "BayAreaBreakaways",
                 "content": {
                     "text": "I would never be weird about this"
-                }
+                },
+                "stats": {
+                    "likes": 1,
+                    "retweets": 0,
+                    "answers": 0
+                },
+                "timestamp": "2026-11-10T10:43:00Z"
             },
             {
                 "author": "BayAreaBreakaways",
                 "replyingto": "RespectfullyLooking",
                 "content": {
                     "text": "Your last tweet is literally you asking to watch them have sex"
-                }
+                },
+                "stats": {
+                    "likes": 1,
+                    "retweets": 0,
+                    "answers": 0
+                },
+                "timestamp": "2026-11-10T10:47:00Z"
             },
             {
                 "author": "RespectfullyLooking",
                 "replyingto": "BayAreaBreakaways",
                 "content": {
                     "text": "and?"
-                }
+                },
+                "stats": {
+                    "likes": 1,
+                    "retweets": 0,
+                    "answers": 0
+                },
+                "timestamp": "2026-11-10T10:50:00Z"
             }
         ]
     },
     {
         "type": "twitter",
         "author": "atthecottage",
-        "timestamp": "ch3",
+        "timestamp": "2026-11-10T07:19:45Z",
         "content": {
             "text": "they really said 'yeah we're dating' and expected us to act surprised. Like yeah, we KNOW.",
             "tags": [
                 "willmackisreal"
             ]
         },
-        "stats": "mid",
+        "stats": {
+            "likes": 769,
+            "retweets": 173,
+            "quote_retweets": 31
+        },
         "replies": [
             {
                 "author": "PenaltyBoxThoughts",
@@ -302,14 +349,19 @@
                 "content": {
                     "text": "look, I get where you're coming from, of course, everyone who paid attention had seen it for a long time. But it's still a big deal to actually have them announce it for real. Like we've known but now we *know*"
                 },
-                "stats": "big"
+                "stats": {
+                    "likes": 3596,
+                    "retweets": 851,
+                    "answers": 436
+                },
+                "timestamp": "2026-11-10T07:21:45Z"
             }
         ]
     },
     {
         "type": "twitter",
         "author": "tealbestboyfriends",
-        "timestamp": "ch3",
+        "timestamp": "2026-11-10T09:14:37Z",
         "content": {
             "text": "Oh, oh, my name is Macklin Celebrini and I have been breaking hockey records left and right since from the moment I stepped on ice and I got a gorgeous boyfriend who kisses my hands when he takes me out to fancy dinner and whenever I score a goal said boyfriend is the first one to hug me like FUCK YOU",
             "tags": [
@@ -317,12 +369,16 @@
             ],
             "media": "lucky_bounce/src/wm_smile_1.jpg"
         },
-        "stats": "big"
+        "stats": {
+            "likes": 2844,
+            "retweets": 539,
+            "quote_retweets": 199
+        }
     },
     {
         "type": "twitter",
         "author": "puckinhole",
-        "timestamp": "ch3",
+        "timestamp": "2026-11-10T05:00:05Z",
         "content": {
             "text": "I can't believe WSH gets to see MC hole on the daily",
             "tags": [
@@ -330,162 +386,274 @@
                 "butalsoyesIamjealous"
             ]
         },
-        "stats": "mid"
+        "stats": {
+            "likes": 204,
+            "retweets": 18,
+            "quote_retweets": 7
+        }
     },
     {
         "type": "twitter",
         "author": "ErikaLisbeth74",
-        "timestamp": "ch3",
+        "timestamp": "2026-11-10T12:30:24Z",
         "content": {
-            "text": "i don't even watch hockey but this made my day 🥹",
+            "text": "i don't even watch hockey but this made my day \ud83e\udd79",
             "tags": [
                 "willmackisreal",
                 "amIdoingthistagthingright"
             ]
         },
-        "stats": "small",
+        "stats": {
+            "likes": 78,
+            "retweets": 8,
+            "quote_retweets": 2
+        },
         "replies": [
             {
                 "author": "annielovesbirds",
                 "replyingto": "ErikaLisbeth74",
                 "content": {
                     "text": "i just fell to my knees in a grocery store parking lot and i don't even WATCH hockey"
-                }
+                },
+                "stats": {
+                    "likes": 3,
+                    "retweets": 0,
+                    "answers": 0
+                },
+                "timestamp": "2026-11-10T12:32:24Z"
             }
         ]
     },
     {
         "type": "twitter",
         "author": "hockeyagainstwoke",
-        "timestamp": "ch3",
+        "timestamp": "2026-11-10T12:25:29Z",
         "content": {
             "text": "I don't give a shit about who is dating who, but there was no need to be so public about it. Keep it to yourself and focus on hockey."
         },
-        "stats": "mid"
+        "stats": {
+            "likes": 233,
+            "retweets": 55,
+            "quote_retweets": 9
+        }
     },
     {
         "type": "twitter",
         "author": "EmotionallyOffside",
-        "timestamp": "ch3",
+        "timestamp": "2026-11-10T05:43:09Z",
         "content": {
             "text": "i don't usually do threads but i need to say this",
             "tags": [
                 "willmackisreal"
             ]
         },
-        "stats": "big",
+        "stats": {
+            "likes": 3263,
+            "retweets": 671,
+            "quote_retweets": 278
+        },
         "replies": [
             {
                 "author": "EmotionallyOffside",
                 "replyingto": "EmotionallyOffside",
                 "content": {
-                    "text": "seeing two nhl players just… exist openly and say they're in love? i can't even explain what that did to me."
-                }
+                    "text": "seeing two nhl players just\u2026 exist openly and say they're in love? i can't even explain what that did to me."
+                },
+                "stats": {
+                    "likes": 124,
+                    "retweets": 11,
+                    "answers": 11
+                },
+                "timestamp": "2026-11-10T05:48:09Z"
             },
             {
                 "author": "EmotionallyOffside",
                 "replyingto": "EmotionallyOffside",
                 "content": {
                     "text": "when i was a kid playing hockey, you learned *real* fast what was okay and what wasn't. and being anything other than straight? yeah. that wasn't even something you said out loud."
-                }
+                },
+                "stats": {
+                    "likes": 25,
+                    "retweets": 1,
+                    "answers": 3
+                },
+                "timestamp": "2026-11-10T05:53:09Z"
             },
             {
                 "author": "EmotionallyOffside",
                 "replyingto": "EmotionallyOffside",
                 "content": {
                     "text": "i remember being in locker rooms where people would joke about it, throw words around like it was nothing. and you just laugh along because what else are you gonna do?"
-                }
+                },
+                "stats": {
+                    "likes": 40,
+                    "retweets": 7,
+                    "answers": 1
+                },
+                "timestamp": "2026-11-10T05:58:09Z"
             },
             {
                 "author": "EmotionallyOffside",
                 "replyingto": "EmotionallyOffside",
                 "content": {
                     "text": "so you get good at hiding. like REALLY good."
-                }
+                },
+                "stats": {
+                    "likes": 39,
+                    "retweets": 7,
+                    "answers": 1
+                },
+                "timestamp": "2026-11-10T06:00:09Z"
             },
             {
                 "author": "EmotionallyOffside",
                 "replyingto": "EmotionallyOffside",
                 "content": {
-                    "text": "you change how you talk. how you react. you don't look too long, don't say too much, don't be “suspect.” you just try to survive it."
-                }
+                    "text": "you change how you talk. how you react. you don't look too long, don't say too much, don't be \u201csuspect.\u201d you just try to survive it."
+                },
+                "stats": {
+                    "likes": 72,
+                    "retweets": 13,
+                    "answers": 6
+                },
+                "timestamp": "2026-11-10T06:04:09Z"
             },
             {
                 "author": "EmotionallyOffside",
                 "replyingto": "EmotionallyOffside",
                 "content": {
-                    "text": "and the thing is… you start to believe that there's no place for you in the game if you're honest about who you are."
-                }
+                    "text": "and the thing is\u2026 you start to believe that there's no place for you in the game if you're honest about who you are."
+                },
+                "stats": {
+                    "likes": 73,
+                    "retweets": 12,
+                    "answers": 6
+                },
+                "timestamp": "2026-11-10T06:08:09Z"
             },
             {
                 "author": "EmotionallyOffside",
                 "replyingto": "EmotionallyOffside",
                 "content": {
                     "text": "i quit before i ever found out if i could've made it anywhere. not because i didn't love hockey, but because i didn't think hockey could ever love me back."
-                }
+                },
+                "stats": {
+                    "likes": 87,
+                    "retweets": 8,
+                    "answers": 12
+                },
+                "timestamp": "2026-11-10T06:10:09Z"
             },
             {
                 "author": "EmotionallyOffside",
                 "replyingto": "EmotionallyOffside",
                 "content": {
-                    "text": "so yeah. seeing this now? two guys in the league just saying “this is who we are” and not apologizing for it?"
-                }
+                    "text": "so yeah. seeing this now? two guys in the league just saying \u201cthis is who we are\u201d and not apologizing for it?"
+                },
+                "stats": {
+                    "likes": 91,
+                    "retweets": 10,
+                    "answers": 12
+                },
+                "timestamp": "2026-11-10T06:14:09Z"
             },
             {
                 "author": "EmotionallyOffside",
                 "replyingto": "EmotionallyOffside",
                 "content": {
                     "text": "it matters more than people realize."
-                }
+                },
+                "stats": {
+                    "likes": 90,
+                    "retweets": 17,
+                    "answers": 10
+                },
+                "timestamp": "2026-11-10T06:16:09Z"
             },
             {
                 "author": "EmotionallyOffside",
                 "replyingto": "EmotionallyOffside",
                 "content": {
-                    "text": "there's some kid somewhere right now, sitting in a freezing rink, lacing up their skates, feeling like they have to hide every part of themselves…"
-                }
+                    "text": "there's some kid somewhere right now, sitting in a freezing rink, lacing up their skates, feeling like they have to hide every part of themselves\u2026"
+                },
+                "stats": {
+                    "likes": 19,
+                    "retweets": 3,
+                    "answers": 2
+                },
+                "timestamp": "2026-11-10T06:21:09Z"
             },
             {
                 "author": "EmotionallyOffside",
                 "replyingto": "EmotionallyOffside",
                 "content": {
-                    "text": "and today, maybe for the first time, they're thinking: “maybe i don't have to.”"
-                }
+                    "text": "and today, maybe for the first time, they're thinking: \u201cmaybe i don't have to.\u201d"
+                },
+                "stats": {
+                    "likes": 102,
+                    "retweets": 15,
+                    "answers": 5
+                },
+                "timestamp": "2026-11-10T06:26:09Z"
             },
             {
                 "author": "EmotionallyOffside",
                 "replyingto": "EmotionallyOffside",
                 "content": {
                     "text": "that's everything."
-                }
+                },
+                "stats": {
+                    "likes": 160,
+                    "retweets": 14,
+                    "answers": 21
+                },
+                "timestamp": "2026-11-10T06:28:09Z"
             },
             {
                 "author": "EmotionallyOffside",
                 "replyingto": "EmotionallyOffside",
                 "content": {
                     "text": "i don't know those players. they don't know me. but what they did? it reached people like me. it reached *far*."
-                }
+                },
+                "stats": {
+                    "likes": 20,
+                    "retweets": 2,
+                    "answers": 0
+                },
+                "timestamp": "2026-11-10T06:30:09Z"
             },
             {
                 "author": "EmotionallyOffside",
                 "replyingto": "EmotionallyOffside",
                 "content": {
-                    "text": "i'm just… really grateful."
-                }
+                    "text": "i'm just\u2026 really grateful."
+                },
+                "stats": {
+                    "likes": 67,
+                    "retweets": 4,
+                    "answers": 1
+                },
+                "timestamp": "2026-11-10T06:31:09Z"
             },
             {
                 "author": "EmotionallyOffside",
                 "replyingto": "EmotionallyOffside",
                 "content": {
                     "text": "that's all."
-                }
+                },
+                "stats": {
+                    "likes": 155,
+                    "retweets": 22,
+                    "answers": 16
+                },
+                "timestamp": "2026-11-10T06:35:09Z"
             }
         ]
     },
     {
         "type": "twitter",
         "author": "SharkTankStress",
-        "timestamp": "ch3",
+        "timestamp": "2026-11-10T11:41:25Z",
         "content": {
             "text": "I guess the mating dance worked",
             "tags": [
@@ -493,54 +661,76 @@
             ],
             "media": "lucky_bounce/src/wm_matingdance.jpg"
         },
-        "stats": "big"
+        "stats": {
+            "likes": 7265,
+            "retweets": 1134,
+            "quote_retweets": 309
+        }
     },
     {
         "type": "twitter",
         "author": "RespectfullyLooking",
-        "timestamp": "ch3",
+        "timestamp": "2026-11-10T08:38:55Z",
         "content": {
             "text": "forget pride tape! girl I wanna see the sex tape!!!"
         },
-        "stats": "small"
+        "stats": {
+            "likes": 99,
+            "retweets": 10,
+            "quote_retweets": 4
+        }
     },
     {
         "type": "twitter",
         "author": "2shark71",
-        "timestamp": "ch3",
+        "timestamp": "2026-11-10T10:23:40Z",
         "content": {
             "text": "when do you think they fell in love?",
             "tags": [
                 "willmackisreal"
             ]
         },
-        "stats": "small",
+        "stats": {
+            "likes": 57,
+            "retweets": 8,
+            "quote_retweets": 2
+        },
         "replies": [
             {
                 "author": "SharkTankStress",
                 "replyingto": "2shark71",
                 "content": {
                     "media": "lucky_bounce/src/wm_prospect_2.jpg"
-                }                
+                },
+                "stats": {
+                    "likes": 1,
+                    "retweets": 0,
+                    "answers": 0
+                },
+                "timestamp": "2026-11-10T10:24:40Z"
             }
         ]
     },
     {
         "type": "twitter",
         "author": "petra_in_the_mountains",
-        "timestamp": "ch3",
+        "timestamp": "2026-11-10T11:26:57Z",
         "content": {
             "text": "if they kiss on the ice after a goal i will simply pass away",
             "tags": [
                 "willmackisreal"
             ]
         },
-        "stats": "priv"
+        "stats": {
+            "likes": 14,
+            "retweets": 1,
+            "quote_retweets": 0
+        }
     },
     {
         "type": "twitter",
         "author": "TooManyMenOnMyMind",
-        "timestamp": "ch3",
+        "timestamp": "2026-11-10T04:03:29Z",
         "content": {
             "text": "imagine getting a hit on someone and their boyfriend comes over??? like what do you do????",
             "tags": [
@@ -553,15 +743,16 @@
                 "author": "SharkTankStress",
                 "replyingto": "TooManyMenOnMyMind",
                 "content": {
-                    "text": "this happened to my good friend Parker Wotherspoon <a href=\"https://www.youtube.com/watch?v=mb3CRFpLcy0\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.youtube.com/watch?v=mb3CRFpLcy0</a>"
-                }
+                    "text": "this happened to my good friend Parker Wotherspoon <a href=\"https://www.youtube.com/watch?v=mb3CRFpLcy0\" target=\"_blank\" rel=\"noopener noreferrer\">watch here</a>"
+                },
+                "timestamp": "2026-11-10T04:04:29Z"
             }
         ]
     },
     {
         "type": "twitter",
         "author": "TealTillIDie",
-        "timestamp": "ch3",
+        "timestamp": "2026-11-10T14:16:55Z",
         "content": {
             "text": "the replies being mostly supportive??? am i still on twitter?",
             "tags": [
@@ -569,14 +760,10 @@
                 "nhl"
             ]
         },
-        "stats": "small"
+        "stats": {
+            "likes": 53,
+            "retweets": 11,
+            "quote_retweets": 2
+        }
     }
-    
-
 ]
-
-
-
-
-
-

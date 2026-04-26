@@ -208,7 +208,11 @@
                 "willmackisreal"
             ]
         },
-        "stats": "small"
+        "stats": {
+            "likes": 93,
+            "retweets": 17,
+            "quote_retweets": 8
+        }
     },
     {
         "type": "twitter",
@@ -217,7 +221,11 @@
         "content": {
             "text": "maybe they should spend less time going on dates and more time going to practice. Maintenance day, sure. Tragic to see them waste their talent like this."
         },
-        "stats": "mid"
+        "stats": {
+            "likes": 367,
+            "retweets": 87,
+            "quote_retweets": 35
+        }
     },
     {
         "type": "twitter",
@@ -231,7 +239,11 @@
                 "nhl"
             ]
         },
-        "stats": "hit",
+        "stats": {
+            "likes": 102940,
+            "retweets": 21969,
+            "quote_retweets": 3558
+        },
         "replies": [
             {
                 "author": "PenaltyBoxThoughts",
@@ -239,7 +251,11 @@
                 "content": {
                     "text": "especially in hockey"
                 },
-                "stats": "mid"
+                "stats": {
+                    "likes": 538,
+                    "retweets": 70,
+                    "answers": 51
+                }
             }
         ]
     },
@@ -250,7 +266,11 @@
         "content": {
             "text": "okay but I am obsessed I have nothing respectful to say, like ngl I would love to go to paris with them 😳"
         },
-        "stats": "mid"
+        "stats": {
+            "likes": 321,
+            "retweets": 31,
+            "quote_retweets": 11
+        }
     },
     {
         "type": "twitter",
@@ -259,13 +279,22 @@
         "content": {
             "text": "y'all better not be weird about this. just let them be happy."
         },
-        "stats": "small",
+        "stats": {
+            "likes": 66,
+            "retweets": 10,
+            "quote_retweets": 2
+        },
         "replies": [
             {
                 "author": "RespectfullyLooking",
                 "replyingto": "BayAreaBreakaways",
                 "content": {
                     "text": "I would never be weird about this"
+                },
+                "stats": {
+                    "likes": 1,
+                    "retweets": 0,
+                    "answers": 0
                 }
             },
             {
@@ -273,6 +302,11 @@
                 "replyingto": "RespectfullyLooking",
                 "content": {
                     "text": "Your last tweet is literally you asking to watch them have sex"
+                },
+                "stats": {
+                    "likes": 1,
+                    "retweets": 0,
+                    "answers": 0
                 }
             },
             {
@@ -280,6 +314,11 @@
                 "replyingto": "BayAreaBreakaways",
                 "content": {
                     "text": "and?"
+                },
+                "stats": {
+                    "likes": 1,
+                    "retweets": 0,
+                    "answers": 0
                 }
             }
         ]
@@ -294,7 +333,11 @@
                 "willmackisreal"
             ]
         },
-        "stats": "mid",
+        "stats": {
+            "likes": 769,
+            "retweets": 173,
+            "quote_retweets": 31
+        },
         "replies": [
             {
                 "author": "PenaltyBoxThoughts",
@@ -302,7 +345,11 @@
                 "content": {
                     "text": "look, I get where you're coming from, of course, everyone who paid attention had seen it for a long time. But it's still a big deal to actually have them announce it for real. Like we've known but now we *know*"
                 },
-                "stats": "big"
+                "stats": {
+                    "likes": 3596,
+                    "retweets": 851,
+                    "answers": 436
+                }
             }
         ]
     },
@@ -317,7 +364,11 @@
             ],
             "media": "lucky_bounce/src/wm_smile_1.jpg"
         },
-        "stats": "big"
+        "stats": {
+            "likes": 2844,
+            "retweets": 539,
+            "quote_retweets": 199
+        }
     },
     {
         "type": "twitter",
@@ -330,7 +381,11 @@
                 "butalsoyesIamjealous"
             ]
         },
-        "stats": "mid"
+        "stats": {
+            "likes": 204,
+            "retweets": 18,
+            "quote_retweets": 7
+        }
     },
     {
         "type": "twitter",
@@ -343,13 +398,22 @@
                 "amIdoingthistagthingright"
             ]
         },
-        "stats": "small",
+        "stats": {
+            "likes": 78,
+            "retweets": 8,
+            "quote_retweets": 2
+        },
         "replies": [
             {
                 "author": "annielovesbirds",
                 "replyingto": "ErikaLisbeth74",
                 "content": {
                     "text": "i just fell to my knees in a grocery store parking lot and i don't even WATCH hockey"
+                },
+                "stats": {
+                    "likes": 3,
+                    "retweets": 0,
+                    "answers": 0
                 }
             }
         ]
@@ -361,7 +425,11 @@
         "content": {
             "text": "I don't give a shit about who is dating who, but there was no need to be so public about it. Keep it to yourself and focus on hockey."
         },
-        "stats": "mid"
+        "stats": {
+            "likes": 233,
+            "retweets": 55,
+            "quote_retweets": 9
+        }
     },
     {
         "type": "twitter",
@@ -373,13 +441,22 @@
                 "willmackisreal"
             ]
         },
-        "stats": "big",
+        "stats": {
+            "likes": 3263,
+            "retweets": 671,
+            "quote_retweets": 278
+        },
         "replies": [
             {
                 "author": "EmotionallyOffside",
                 "replyingto": "EmotionallyOffside",
                 "content": {
                     "text": "seeing two nhl players just… exist openly and say they're in love? i can't even explain what that did to me."
+                },
+                "stats": {
+                    "likes": 124,
+                    "retweets": 11,
+                    "answers": 11
                 }
             },
             {
@@ -387,6 +464,11 @@
                 "replyingto": "EmotionallyOffside",
                 "content": {
                     "text": "when i was a kid playing hockey, you learned *real* fast what was okay and what wasn't. and being anything other than straight? yeah. that wasn't even something you said out loud."
+                },
+                "stats": {
+                    "likes": 25,
+                    "retweets": 1,
+                    "answers": 3
                 }
             },
             {
@@ -394,6 +476,11 @@
                 "replyingto": "EmotionallyOffside",
                 "content": {
                     "text": "i remember being in locker rooms where people would joke about it, throw words around like it was nothing. and you just laugh along because what else are you gonna do?"
+                },
+                "stats": {
+                    "likes": 40,
+                    "retweets": 7,
+                    "answers": 1
                 }
             },
             {
@@ -401,6 +488,11 @@
                 "replyingto": "EmotionallyOffside",
                 "content": {
                     "text": "so you get good at hiding. like REALLY good."
+                },
+                "stats": {
+                    "likes": 39,
+                    "retweets": 7,
+                    "answers": 1
                 }
             },
             {
@@ -408,6 +500,11 @@
                 "replyingto": "EmotionallyOffside",
                 "content": {
                     "text": "you change how you talk. how you react. you don't look too long, don't say too much, don't be “suspect.” you just try to survive it."
+                },
+                "stats": {
+                    "likes": 72,
+                    "retweets": 13,
+                    "answers": 6
                 }
             },
             {
@@ -415,6 +512,11 @@
                 "replyingto": "EmotionallyOffside",
                 "content": {
                     "text": "and the thing is… you start to believe that there's no place for you in the game if you're honest about who you are."
+                },
+                "stats": {
+                    "likes": 73,
+                    "retweets": 12,
+                    "answers": 6
                 }
             },
             {
@@ -422,6 +524,11 @@
                 "replyingto": "EmotionallyOffside",
                 "content": {
                     "text": "i quit before i ever found out if i could've made it anywhere. not because i didn't love hockey, but because i didn't think hockey could ever love me back."
+                },
+                "stats": {
+                    "likes": 87,
+                    "retweets": 8,
+                    "answers": 12
                 }
             },
             {
@@ -429,6 +536,11 @@
                 "replyingto": "EmotionallyOffside",
                 "content": {
                     "text": "so yeah. seeing this now? two guys in the league just saying “this is who we are” and not apologizing for it?"
+                },
+                "stats": {
+                    "likes": 91,
+                    "retweets": 10,
+                    "answers": 12
                 }
             },
             {
@@ -436,6 +548,11 @@
                 "replyingto": "EmotionallyOffside",
                 "content": {
                     "text": "it matters more than people realize."
+                },
+                "stats": {
+                    "likes": 90,
+                    "retweets": 17,
+                    "answers": 10
                 }
             },
             {
@@ -443,6 +560,11 @@
                 "replyingto": "EmotionallyOffside",
                 "content": {
                     "text": "there's some kid somewhere right now, sitting in a freezing rink, lacing up their skates, feeling like they have to hide every part of themselves…"
+                },
+                "stats": {
+                    "likes": 19,
+                    "retweets": 3,
+                    "answers": 2
                 }
             },
             {
@@ -450,6 +572,11 @@
                 "replyingto": "EmotionallyOffside",
                 "content": {
                     "text": "and today, maybe for the first time, they're thinking: “maybe i don't have to.”"
+                },
+                "stats": {
+                    "likes": 102,
+                    "retweets": 15,
+                    "answers": 5
                 }
             },
             {
@@ -457,6 +584,11 @@
                 "replyingto": "EmotionallyOffside",
                 "content": {
                     "text": "that's everything."
+                },
+                "stats": {
+                    "likes": 160,
+                    "retweets": 14,
+                    "answers": 21
                 }
             },
             {
@@ -464,6 +596,11 @@
                 "replyingto": "EmotionallyOffside",
                 "content": {
                     "text": "i don't know those players. they don't know me. but what they did? it reached people like me. it reached *far*."
+                },
+                "stats": {
+                    "likes": 20,
+                    "retweets": 2,
+                    "answers": 0
                 }
             },
             {
@@ -471,6 +608,11 @@
                 "replyingto": "EmotionallyOffside",
                 "content": {
                     "text": "i'm just… really grateful."
+                },
+                "stats": {
+                    "likes": 67,
+                    "retweets": 4,
+                    "answers": 1
                 }
             },
             {
@@ -478,6 +620,11 @@
                 "replyingto": "EmotionallyOffside",
                 "content": {
                     "text": "that's all."
+                },
+                "stats": {
+                    "likes": 155,
+                    "retweets": 22,
+                    "answers": 16
                 }
             }
         ]
@@ -493,7 +640,11 @@
             ],
             "media": "lucky_bounce/src/wm_matingdance.jpg"
         },
-        "stats": "big"
+        "stats": {
+            "likes": 7265,
+            "retweets": 1134,
+            "quote_retweets": 309
+        }
     },
     {
         "type": "twitter",
@@ -502,7 +653,11 @@
         "content": {
             "text": "forget pride tape! girl I wanna see the sex tape!!!"
         },
-        "stats": "small"
+        "stats": {
+            "likes": 99,
+            "retweets": 10,
+            "quote_retweets": 4
+        }
     },
     {
         "type": "twitter",
@@ -514,14 +669,23 @@
                 "willmackisreal"
             ]
         },
-        "stats": "small",
+        "stats": {
+            "likes": 57,
+            "retweets": 8,
+            "quote_retweets": 2
+        },
         "replies": [
             {
                 "author": "SharkTankStress",
                 "replyingto": "2shark71",
                 "content": {
                     "media": "lucky_bounce/src/wm_prospect_2.jpg"
-                }                
+                },
+                "stats": {
+                    "likes": 1,
+                    "retweets": 0,
+                    "answers": 0
+                }
             }
         ]
     },
@@ -535,7 +699,11 @@
                 "willmackisreal"
             ]
         },
-        "stats": "priv"
+        "stats": {
+            "likes": 14,
+            "retweets": 1,
+            "quote_retweets": 0
+        }
     },
     {
         "type": "twitter",
@@ -553,7 +721,7 @@
                 "author": "SharkTankStress",
                 "replyingto": "TooManyMenOnMyMind",
                 "content": {
-                    "text": "this happened to my good friend Parker Wotherspoon <a href=\"https://www.youtube.com/watch?v=mb3CRFpLcy0\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.youtube.com/watch?v=mb3CRFpLcy0</a>"
+                    "text": "this happened to my good friend Parker Wotherspoon <a href=\"https://www.youtube.com/watch?v=mb3CRFpLcy0\" target=\"_blank\" rel=\"noopener noreferrer\">watch here</a>"
                 }
             }
         ]
@@ -569,14 +737,10 @@
                 "nhl"
             ]
         },
-        "stats": "small"
+        "stats": {
+            "likes": 53,
+            "retweets": 11,
+            "quote_retweets": 2
+        }
     }
-    
-
 ]
-
-
-
-
-
-

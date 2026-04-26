@@ -4,6 +4,12 @@ import re
 
 # --------- HELPERS ---------
 
+def format_stat_number(n):
+    if isinstance(n, int) and n >= 1000:
+        return f"{n:,}".replace(",", ".")
+    return str(n)
+
+
 def cleanup_html(html):
     # 1. Remove empty lines
     lines = [line.strip() for line in html.splitlines() if line.strip()]
@@ -75,26 +81,32 @@ def render_tags(tags):
 
 
 def render_stats(stats):
+    if not isinstance(stats, dict):
+        return ""
+
     return f"""
     <div class="twt-stat1">
-        <p><strong>{stats.get("retweets",0)}</strong> Retweets 
-        <strong>{stats.get("quote_retweets",0)}</strong> Quote Tweets 
-        <strong>{stats.get("likes",0)}</strong> Likes</p>
+        <p><strong>{format_stat_number(stats.get("retweets", 0))}</strong> Retweets 
+        <strong>{format_stat_number(stats.get("quote_retweets", 0))}</strong> Quote Tweets 
+        <strong>{format_stat_number(stats.get("likes", 0))}</strong> Likes</p>
     </div>
     """
 
 
 def render_reply_stats(stats):
+    if not isinstance(stats, dict):
+        return ""
+
     return f"""
     <div class="twt-stat2">
         <div class="twt-social">
-            <p><img class="twt-socialimg" src="https://i.imgur.com/dJg9v1v.png">{stats.get("answers",0)}</p>
+            <p><img class="twt-socialimg" src="https://i.imgur.com/dJg9v1v.png">{format_stat_number(stats.get("answers", 0))}</p>
         </div>
         <div class="twt-social">
-            <p><img class="twt-socialimg" src="https://i.imgur.com/UeOnwXk.png">{stats.get("retweets",0)}</p>
+            <p><img class="twt-socialimg" src="https://i.imgur.com/UeOnwXk.png">{format_stat_number(stats.get("retweets", 0))}</p>
         </div>
         <div class="twt-social">
-            <p><img class="twt-socialimg" src="https://i.imgur.com/eM56CN2.png">{stats.get("likes",0)}</p>
+            <p><img class="twt-socialimg" src="https://i.imgur.com/eM56CN2.png">{format_stat_number(stats.get("likes", 0))}</p>
         </div>
     </div>
     """
