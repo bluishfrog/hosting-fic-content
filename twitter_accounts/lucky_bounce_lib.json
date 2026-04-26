@@ -113,6 +113,24 @@
         "icon": "twitter_accounts/profile_pictures/hockeydog.jpg",
         "vibe": "past hockey player, emotional"
     },
+    {
+        "handle": "SharkTankStress",
+        "name": "discovered new forms of anxiety",
+        "icon": "twitter_accounts/profile_pictures/wm_ice_2.jpg",
+        "vibe": "willmack fan, pos"
+    },
+    {
+        "handle": "petra_in_the_mountains",
+        "name": "Petra",
+        "icon": "twitter_accounts/profile_pictures/flowers.jpg",
+        "vibe": "willmack fan, pos"
+    },
+    {
+        "handle": "TooManyMenOnMyMind",
+        "name": "sigh",
+        "icon": "twitter_accounts/profile_pictures/skates.jpg",
+        "vibe": "hockey romance fan"
+    },
 
 
 

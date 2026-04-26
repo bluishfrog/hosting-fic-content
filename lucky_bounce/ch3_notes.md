@@ -62,10 +62,6 @@ i don't usually do threads but i need to say this
 > i'm just… really grateful.
 > that's all.
 
-///
-
-lowkey knew. idk how to explain it but i knew.
-
 I guess the mating dance worked [pic]
 
 forget pride tape! girl I wanna see the sex tape!!!
@@ -79,6 +75,8 @@ imagine getting a hit on someone and their boyfriend comes over??? i would retir
 > this happened to my good friend Parker Wotherspoon LINK https://www.youtube.com/watch?v=mb3CRFpLcy0&pp=ygUVbWFjayBmaWdodGluZyBwZW5ndWlu
 
 the replies being mostly supportive??? am i still on twitter???
+
+////
 
 i keep rereading their announcement and i don't really know how to put this into words without sounding dramatic, but it genuinely made me sit down and just… breathe for a second.
 > i grew up around hockey. not pro level, nothing like that, just rinks and early mornings and cold gear bags and all of it. and there was always this unspoken rule that some things just didn't belong in that world.

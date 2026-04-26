@@ -481,6 +481,103 @@
                 }
             }
         ]
+    },
+    {
+        "type": "twitter",
+        "author": "SharkTankStress",
+        "timestamp": "ch3",
+        "content": {
+            "text": "I guess the mating dance worked",
+            "tags": [
+                "willmackisreal"
+            ]
+        },
+        "media": "lucky_bounce/src/wm_matingdance.jpg",
+        "stats": "big"
+    },
+    {
+        "type": "twitter",
+        "author": "RespectfullyLooking",
+        "timestamp": "ch3",
+        "content": {
+            "text": "forget pride tape! girl I wanna see the sex tape!!!"
+        },
+        "stats": "small"
+    },
+    {
+        "type": "twitter",
+        "author": "2shark71",
+        "timestamp": "ch3",
+        "content": {
+            "text": "when do you think they fell in love?",
+            "tags": [
+                "willmackisreal"
+            ]
+        },
+        "stats": "small",
+        "replies": [
+            {
+                "author": "SharkTankStress",
+                "replyingto": "2shark71",
+                "content": {
+                },
+                "media": "lucky_bounce/src/wm_prospect_2.jpg"
+            }
+        ]
+    },
+    {
+        "type": "twitter",
+        "author": "petra_in_the_mountains",
+        "timestamp": "ch3",
+        "content": {
+            "text": "if they kiss on the ice after a goal i will simply pass away",
+            "tags": [
+                "willmackisreal"
+            ]
+        },
+        "stats": "priv"
+    },
+    {
+        "type": "twitter",
+        "author": "TooManyMenOnMyMind",
+        "timestamp": "ch3",
+        "content": {
+            "text": "imagine getting a hit on someone and their boyfriend comes over??? like what do you do????",
+            "tags": [
+                "willmackisreal"
+            ]
+        },
+        "stats": "medium",
+        "replies": [
+            {
+                "author": "SharkTankStress",
+                "replyingto": "TooManyMenOnMyMind",
+                "content": {
+                    "text": "this happened to my good friend Parker Wotherspoon https://www.youtube.com/watch?v=mb3CRFpLcy0"
+                },
+                "media": "https://www.youtube.com/watch?v=mb3CRFpLcy0"
+            }
+        ]
+    },
+    {
+        "type": "twitter",
+        "author": "TealTillIDie",
+        "timestamp": "ch3",
+        "content": {
+            "text": "the replies being mostly supportive??? am i still on twitter?",
+            "tags": [
+                "hockey",
+                "nhl"
+            ]
+        },
+        "stats": "small"
     }
+    
+
 ]
+
+
+
+
+
 

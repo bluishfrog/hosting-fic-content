@@ -124,12 +124,6 @@
         "vibe": "old school fan"
     },
     {
-        "handle": "@EmotionallyOffside",
-        "name": "Offside Emotionally",
-        "icon": "tbd",
-        "vibe": "sad fan"
-    },
-    {
         "handle": "@SharksHeartbreak",
         "name": "San Jose Pain",
         "icon": "tbd",
@@ -147,12 +141,7 @@
         "icon": "tbd",
         "vibe": "traumatized sharks fan"
     },
-    {
-        "handle": "@SharkTankStress",
-        "name": "Shark Tank Anxiety",
-        "icon": "tbd",
-        "vibe": "anxious sharks fan"
-    },
+
     
     {
         "handle": "@bob",
