@@ -12,7 +12,6 @@
             "likes": 1.482
         }
     },
-
     {
         "type": "twitter",
         "author": "TealTillIDie",
@@ -20,8 +19,8 @@
         "content": {
             "text": "I can't believe I am alive at the same time as the first nhl players tell the world they are IN LOVE with each other. Like we KNEW, but now we KNOW",
             "tags": [
-                        "willmackisreal"
-                    ]
+                "willmackisreal"
+            ]
         },
         "stats": {
             "retweets": 2.974,
@@ -29,15 +28,14 @@
             "likes": 23.945
         }
     },
-
     {
         "type": "twitter",
         "author": "newswithdestiel",
         "timestamp": "2026-11-10T03:42:00Z",
         "content": {
             "tags": [
-                        "willmackisreal"
-                    ],
+                "willmackisreal"
+            ],
             "media": "lucky_bounce/src/ch3_meme_destiel.png"
         },
         "stats": {
@@ -46,7 +44,6 @@
             "likes": 84.295
         }
     },
-
     {
         "type": "twitter",
         "author": "annielovesbirds",
@@ -60,7 +57,6 @@
             "likes": 26
         }
     },
-
     {
         "type": "twitter",
         "author": "PenaltyBoxThoughts",
@@ -68,10 +64,10 @@
         "content": {
             "text": "hockey culture shifting in real time… proud of them fr",
             "tags": [
-                        "willmackisreal",
-                        "hockey",
-                        "nhl"
-                    ]
+                "willmackisreal",
+                "hockey",
+                "nhl"
+            ]
         },
         "stats": {
             "retweets": 428,
@@ -79,7 +75,6 @@
             "likes": 1.486
         }
     },
-
     {
         "type": "twitter",
         "author": "flightlessbirds",
@@ -93,13 +88,16 @@
             "likes": 372
         }
     },
-
     {
         "type": "twitter",
         "author": "RespectfullyLooking",
         "timestamp": "2026-11-10T10:13:00Z",
         "content": {
-            "text": "If I wasn't so happy for them, I'd be mad that this doesn't just take one but two skilled players off the market. Like fuck off."
+            "text": "If I wasn't so happy for them, I'd be mad that this doesn't just take one but two skilled players off the market. Like fuck off.",
+            "tags": [
+                "everyone look away",
+                "nothing to see here"
+            ]
         },
         "stats": {
             "retweets": 1,
@@ -205,7 +203,10 @@
         "author": "2shark71",
         "timestamp": "ch3",
         "content": {
-            "text": "ok but are we gonna talk about how they've probably been dating this whole time??? the tension??? the locker room gossip??? 👀"
+            "text": "ok but are we gonna talk about how they've probably been dating this whole time??? the tension??? the locker room gossip??? 👀",
+            "tags": [
+                "willmackisreal"
+            ]
         },
         "stats": "small"
     },
@@ -223,7 +224,12 @@
         "author": "ZamboniRating",
         "timestamp": "ch3",
         "content": {
-            "text": "this is so important for younger players who feel like they have to hide. representation matters, even in hockey"
+            "text": "this is so important for younger players who feel like they have to hide. representation matters, even in hockey",
+            "tags": [
+                "willmackisreal",
+                "hockey",
+                "nhl"
+            ]
         },
         "stats": "hit",
         "replies": [
@@ -283,7 +289,10 @@
         "author": "atthecottage",
         "timestamp": "ch3",
         "content": {
-            "text": "they really said 'yeah we're dating' and expected us to act surprised. Like yeah, we KNOW."
+            "text": "they really said 'yeah we're dating' and expected us to act surprised. Like yeah, we KNOW.",
+            "tags": [
+                "willmackisreal"
+            ]
         },
         "stats": "mid",
         "replies": [
@@ -296,8 +305,182 @@
                 "stats": "big"
             }
         ]
+    },
+    {
+        "type": "twitter",
+        "author": "tealbestboyfriends",
+        "timestamp": "ch3",
+        "content": {
+            "text": "Oh, oh, my name is Macklin Celebrini and I have been breaking hockey records left and right since from the moment I stepped on ice and I got a gorgeous boyfriend who kisses my hands when he takes me out to fancy dinner and whenever I score a goal said boyfriend is the first one to hug me like FUCK YOU",
+            "tags": [
+                "willmackisreal"
+            ]
+        },
+        "media": "lucky_bounce/src/wm_smile_1.jpg",
+        "stats": "big"
+    },
+    {
+        "type": "twitter",
+        "author": "puckinhole",
+        "timestamp": "ch3",
+        "content": {
+            "text": "I can't believe WSH gets to see MC hole on the daily",
+            "tags": [
+                "goodforhim",
+                "butalsoyesIamjealous"
+            ]
+        },
+        "stats": "mid"
+    },
+    {
+        "type": "twitter",
+        "author": "ErikaLisbeth74",
+        "timestamp": "ch3",
+        "content": {
+            "text": "i don't even watch hockey but this made my day 🥹",
+            "tags": [
+                "willmackisreal",
+                "amIdoingthistagthingright"
+            ]
+        },
+        "stats": "small",
+        "replies": [
+            {
+                "author": "annielovesbirds",
+                "replyingto": "ErikaLisbeth74",
+                "content": {
+                    "text": "i just fell to my knees in a grocery store parking lot and i don't even WATCH hockey"
+                }
+            }
+        ]
+    },
+    {
+        "type": "twitter",
+        "author": "hockeyagainstwoke",
+        "timestamp": "ch3",
+        "content": {
+            "text": "I don't give a shit about who is dating who, but there was no need to be so public about it. Keep it to yourself and focus on hockey."
+        },
+        "stats": "mid"
+    },
+    {
+        "type": "twitter",
+        "author": "EmotionallyOffside",
+        "timestamp": "ch3",
+        "content": {
+            "text": "i don't usually do threads but i need to say this",
+            "tags": [
+                "willmackisreal"
+            ]
+        },
+        "stats": "big",
+        "replies": [
+            {
+                "author": "EmotionallyOffside",
+                "replyingto": "EmotionallyOffside",
+                "content": {
+                    "text": "seeing two nhl players just… exist openly and say they're in love? i can't even explain what that did to me."
+                }
+            },
+            {
+                "author": "EmotionallyOffside",
+                "replyingto": "EmotionallyOffside",
+                "content": {
+                    "text": "when i was a kid playing hockey, you learned *real* fast what was okay and what wasn't. and being anything other than straight? yeah. that wasn't even something you said out loud."
+                }
+            },
+            {
+                "author": "EmotionallyOffside",
+                "replyingto": "EmotionallyOffside",
+                "content": {
+                    "text": "i remember being in locker rooms where people would joke about it, throw words around like it was nothing. and you just laugh along because what else are you gonna do?"
+                }
+            },
+            {
+                "author": "EmotionallyOffside",
+                "replyingto": "EmotionallyOffside",
+                "content": {
+                    "text": "so you get good at hiding. like REALLY good."
+                }
+            },
+            {
+                "author": "EmotionallyOffside",
+                "replyingto": "EmotionallyOffside",
+                "content": {
+                    "text": "you change how you talk. how you react. you don't look too long, don't say too much, don't be “suspect.” you just try to survive it."
+                }
+            },
+            {
+                "author": "EmotionallyOffside",
+                "replyingto": "EmotionallyOffside",
+                "content": {
+                    "text": "and the thing is… you start to believe that there's no place for you in the game if you're honest about who you are."
+                }
+            },
+            {
+                "author": "EmotionallyOffside",
+                "replyingto": "EmotionallyOffside",
+                "content": {
+                    "text": "i quit before i ever found out if i could've made it anywhere. not because i didn't love hockey, but because i didn't think hockey could ever love me back."
+                }
+            },
+            {
+                "author": "EmotionallyOffside",
+                "replyingto": "EmotionallyOffside",
+                "content": {
+                    "text": "so yeah. seeing this now? two guys in the league just saying “this is who we are” and not apologizing for it?"
+                }
+            },
+            {
+                "author": "EmotionallyOffside",
+                "replyingto": "EmotionallyOffside",
+                "content": {
+                    "text": "it matters more than people realize."
+                }
+            },
+            {
+                "author": "EmotionallyOffside",
+                "replyingto": "EmotionallyOffside",
+                "content": {
+                    "text": "there's some kid somewhere right now, sitting in a freezing rink, lacing up their skates, feeling like they have to hide every part of themselves…"
+                }
+            },
+            {
+                "author": "EmotionallyOffside",
+                "replyingto": "EmotionallyOffside",
+                "content": {
+                    "text": "and today, maybe for the first time, they're thinking: “maybe i don't have to.”"
+                }
+            },
+            {
+                "author": "EmotionallyOffside",
+                "replyingto": "EmotionallyOffside",
+                "content": {
+                    "text": "that's everything."
+                }
+            },
+            {
+                "author": "EmotionallyOffside",
+                "replyingto": "EmotionallyOffside",
+                "content": {
+                    "text": "i don't know those players. they don't know me. but what they did? it reached people like me. it reached *far*."
+                }
+            },
+            {
+                "author": "EmotionallyOffside",
+                "replyingto": "EmotionallyOffside",
+                "content": {
+                    "text": "i'm just… really grateful."
+                }
+            },
+            {
+                "author": "EmotionallyOffside",
+                "replyingto": "EmotionallyOffside",
+                "content": {
+                    "text": "that's all."
+                }
+            }
+        ]
     }
-
 ]
-
 

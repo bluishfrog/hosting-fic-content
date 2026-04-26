@@ -36,8 +36,6 @@ y'all better not be weird about this. just let them be happy.
 they really said 'yeah we're dating' and expected us to act surprised. Like yeah, we KNOW.
 > look, I get where you're coming from, of course, everyone who paid attention had seen it for a long time. But it's still a big deal to actually have them announce it for real. Like we've known but now we *know*
 
-///
-
 Oh, oh, my name is Macklin Celebrini and I have been breaking hockey records left and right since from the moment I stepped on ice and I got a gorgeous boyfriend who kisses my hands when he takes me out to fancy dinner and whenever I score a goal said boyfriend is the first one to hug me like FUCK YOU
 
 I can't believe WSH gets to see MC hole on the daily
@@ -64,7 +62,11 @@ i don't usually do threads but i need to say this
 > i'm just… really grateful.
 > that's all.
 
+///
+
 lowkey knew. idk how to explain it but i knew.
+
+I guess the mating dance worked [pic]
 
 forget pride tape! girl I wanna see the sex tape!!!
 

@@ -56,7 +56,7 @@
     {
         "handle": "2shark71",
         "name": "i don't know how I managed to get this handle",
-        "icon": "twitter_accounts/profile_pictures/podcast.jpg",
+        "icon": "twitter_accounts/profile_pictures/wm_podcast.jpg",
         "vibe": "willmack fan, pos"
     },
     {
@@ -88,6 +88,30 @@
         "name": "wait is this irl hr?",
         "icon": "twitter_accounts/profile_pictures/hr_1.jpg",
         "vibe": "hr fan, pos"
+    },
+    {
+        "handle": "tealbestboyfriends",
+        "name": "ACTUALLY BOYFRIENDS NOW",
+        "icon": "twitter_accounts/profile_pictures/wm_ice_1.jpg",
+        "vibe": "willmack fan, pos"
+    },
+    {
+        "handle": "ErikaLisbeth74",
+        "name": "Erika Lisbeth",
+        "icon": "twitter_accounts/profile_pictures/butterfly.jpg",
+        "vibe": "general user, pos"
+    },
+    {
+        "handle": "hockeyagainstwoke",
+        "name": "Hermann",
+        "icon": "twitter_accounts/profile_pictures/bt7_existing.jpg",
+        "vibe": "hockey fan, neg"
+    },
+    {
+        "handle": "EmotionallyOffside",
+        "name": "A.",
+        "icon": "twitter_accounts/profile_pictures/hockeydog.jpg",
+        "vibe": "past hockey player, emotional"
     },
 
 

@@ -13,6 +13,27 @@ RANGES = {
 
 
 # --------- HELPERS ---------
+def format_number(n):
+    if isinstance(n, int) and n >= 1000:
+        return f"{n:,}".replace(",", ".")
+    return n
+
+
+def format_stats(stats, is_reply=False):
+    if not isinstance(stats, dict):
+        return stats
+
+    formatted = {}
+
+    for k, v in stats.items():
+        if isinstance(v, int):
+            formatted[k] = format_number(v)
+        else:
+            formatted[k] = v
+
+    return formatted
+
+
 def load_json(path):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
@@ -81,12 +102,13 @@ def process_tweet(tweet):
     elif isinstance(stats, str):
         generated = generate_main_stats_from_var(stats)
         if generated:
-            tweet["stats"] = generated
+            tweet["stats"] = format_stats(generated)
             main_likes = generated["likes"]
         else:
             main_likes = None
 
     elif is_full_main_stats(stats):
+        tweet["stats"] = format_stats(stats)
         main_likes = stats["likes"]
 
     else:
@@ -97,8 +119,23 @@ def process_tweet(tweet):
         for reply in tweet["replies"]:
             rstats = reply.get("stats")
 
-            if not is_full_reply_stats(rstats):
-                reply["stats"] = generate_reply_stats_from_main(main_likes)
+            if is_full_reply_stats(rstats):
+                reply["stats"] = format_stats(rstats)
+                continue
+
+            if isinstance(rstats, str):
+                gen = generate_main_stats_from_var(rstats)
+                if gen:
+                    reply["stats"] = format_stats({
+                        "likes": gen["likes"],
+                        "retweets": gen["retweets"],
+                        "answers": int(gen["likes"] * random.uniform(0.02, 0.15))
+                    })
+                    continue
+
+            reply["stats"] = format_stats(
+                generate_reply_stats_from_main(main_likes)
+            )
 
     return tweet
 

@@ -252,7 +252,7 @@ def main():
 
 # --------- CONFIG ---------
 ACCOUNTS_FILE = "twitter_accounts/lucky_bounce_lib.json"
-TIMELINE_FILE = "lucky_bounce/chp3_twt.json"
+TIMELINE_FILE = "timeline_out.json"
 OUTPUT_FILE = "output.html"
 MEDIA_PREFIX = "https://github.com/bluishfrog/hosting-fic-content/blob/main/"
 

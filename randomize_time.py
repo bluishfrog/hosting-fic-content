@@ -105,15 +105,15 @@ def process_tweet(tweet):
 
 # --------- CONFIG ---------
 
-INPUT_FILE = "lucky_bounce/chp3_twt.json"
+INPUT_FILE = "timeline_with_stats.json"
 OUTPUT_FILE = "timeline_out.json"
 
 # define ranges for variables
 # you can add more like "ch1", "ch2", etc.
 TIME_RANGES = {
     "ch3": (
-        "2026-11-10T08:00:00Z",  # earliest
-        "2026-11-10T23:00:00Z",  # latest
+        "2026-11-10T02:00:00Z",  # earliest
+        "2026-11-10T14:30:00Z",  # latest
     )
 }
 
