@@ -1,0 +1,751 @@
+#workskin .twt {
+  float: center;
+  max-width: 450px;
+  min-width: 300px;
+  margin: 0em auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid #c7c7c7;
+  border-radius: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+#workskin .twt-header {
+  overflow: hidden;
+  margin-bottom: -3em;
+}
+
+#workskin .twt-icon-container {
+  float: left;
+}
+
+#workskin .twt-icon {
+  border-radius: 50%;
+  width: 3.5em;
+}
+
+#workskin .twt-iconquote {
+  border-radius: 50%;
+  width: 2em;
+}
+
+#workskin .twt-id {
+  font-size: 1em;
+  padding-left: 1em;
+  overflow: hidden;
+}
+
+#workskin .twt-name {
+  font-weight: bold;
+}
+
+#workskin .twt-name:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#workskin .twt-handle {
+  color: #657786;
+}
+
+#workskin .twt-handle:hover {
+  cursor: pointer;
+}
+
+#workskin .twt-content {
+  font-size: 1.3em;
+  margin-bottom: -1em;
+}
+
+#workskin .twt-contentquote {
+  margin-top: -1em;
+  font-size: 1em;
+}
+
+#workskin .twt-timestamp {
+  color: #657786;
+  font-size: 1em;
+}
+
+#workskin hr.twt-sep,
+#workskin hr.twt-sep-reply {
+  border: none;
+  height: 1px;
+  width: 100%;
+  background-color: #e6e6e6;
+}
+
+#workskin hr.twt-sep-reply {
+  margin-left: -20px;
+  padding-right: 40px;
+}
+
+#workskin .twt-stat1 {
+  color: #657786;
+  font-size: 0.9em;
+}
+
+#workskin .twt-quotebox {
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #c7c7c7;
+  border-radius: 10px;
+  margin-bottom: -1em;
+}
+
+#workskin .twt-image {
+  float: center;
+  max-width: 100%;
+  min-width: 100%;
+  border: 1px solid #c7c7c7;
+  border-radius: 10px;
+  margin-top: 0.5em;
+  margin-bottom: -1em;
+}
+
+#workskin .twt-replybox {
+  margin-top: -2em;
+}
+
+#workskin .twt-icon-replycontainer {
+  float: left;
+}
+
+#workskin .twt-replycontainer {
+  padding-left: 1em;
+  overflow: hidden;
+}
+
+#workskin .twt-replycontent {
+  margin-top: -1em;
+}
+
+#workskin .twt-stat2 {
+  color: #657786;
+  font-size: 0.9em;
+  margin-top: -1em;
+}
+
+#workskin .twt-social {
+  float: left;
+  margin-right: 2em;
+  margin-bottom: -1em;
+}
+
+#workskin .twt-socialimg {
+  height: 13px;
+  margin-right: 3px;
+}
+
+#workskin .twt-hl {
+  color: #1DA1F2;
+}
+
+#workskin .twt-hl:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#workskin .t_ {
+  max-width: 540px;
+  font-family: Gibson,Helvetica Neue,HelveticaNeue,Helvetica,Arial,sans-serif;
+  display: table;
+  margin: auto;
+  color: #444444;
+  box-sizing: border-box;
+}
+
+#workskin .t_body {
+  background-color: #ffffff;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: .1em;
+  border-color: #dddddd;
+  float: left;
+  position: relative;
+  padding: 15px 0 0;
+  width: 540px;
+}
+
+#workskin .t_url,
+#workskin .t_photourl {
+  position: relative;
+  top: -.2em;
+  font-weight: 700;
+  font-size: 14px;
+  margin-left: 20px;
+  line-height: 20px;
+  height: 20px;
+}
+
+#workskin .t_photourl {
+  display: block;
+}
+
+#workskin .t_text {
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 20px;
+  line-height: 21px;
+  font-size: 14px;
+  width: 92%;
+  word-wrap: break-word;
+}
+
+#workskin .t_text a {
+  color: #444444;
+}
+
+#workskin .t_h {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 47px;
+  width: 92%;
+  word-wrap: break-word;
+}
+
+#workskin .t_tags {
+  display: inline-block;
+  width: 92%;
+  font-size: 13px;
+  color: #8f8f8f;
+  margin-top: 15px;
+  line-height: 20px;
+  position: relative;
+  margin-left: 20px;
+}
+
+#workskin .t_tag {
+  margin-left: 12px;
+}
+
+#workskin .t_tag:first-of-type {
+  margin-left: 0px;
+}
+
+#workskin .t_notes {
+  font-size: 14px;
+  font-weight: bold;
+  color: #8f8f8f;
+  line-height: 45px;
+  position: relative;
+  margin-left: 20px !important;
+  display: inline-block;
+}
+
+#workskin .t_icons {
+  height: 45px;
+  width: auto;
+  float: right;
+  margin-right: 10px;
+}
+
+#workskin .t_one {
+  width: 540px;
+  margin: 4px 0 0 0;
+  vertical-align: top;
+}
+
+#workskin .t_img {
+  max-width: 100%;
+  height: auto;
+}
+
+#workskin .t_two,
+#workskin .t_three {
+  margin: 4px 0 0 4px;
+  vertical-align: top;
+  display: inline-block;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+#workskin .t_two {
+  width: 268px;
+  height: 177px;
+}
+
+#workskin .t_three {
+  height: 120px;
+  width: 177px;
+}
+
+#workskin .portrait {
+  height: 412px;
+}
+
+#workskin .short {
+  height: 50px;
+}
+
+#workskin .left {
+  margin-left: 0 !important;
+  float: left;
+}
+
+#workskin .right {
+  float: right;
+}
+
+#workskin .mid {
+  width: 178px !important;
+}
+
+#workskin .t_quote {
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 1px;
+  margin-left: 35px;
+  line-height: 42px;
+  font-size: 36px;
+  width: 89%;
+  word-wrap: break-word;
+  font-family: Georgia, serif;
+  text-indent: -15px;
+}
+
+#workskin .t_quote:before {
+  content: "\201C";
+}
+
+#workskin .t_quote:after {
+  content: "\201D";
+}
+
+#workskin .quotesourcedash {
+  width: 20px;
+  margin-left: 20px;
+}
+
+#workskin .quotesource {
+  display: inline-block;
+  margin-bottom: 15px;
+  line-height: 21px;
+  font-size: 14px;
+  width: 90%;
+  word-wrap: break-word;
+}
+
+#workskin .t_ask {
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 3px;
+  float: left;
+  position: relative;
+  padding: 15px 14px 18px;
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 20px;
+  line-height: 21px;
+  font-size: 14px;
+  width: 80%;
+  word-wrap: break-word;
+}
+
+#workskin .t_asktip {
+  display: inline;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 8px solid #f2f2f2;
+  right: -8px;
+  top: 10px;
+}
+
+#workskin .t_askicon {
+  display: inline-block;
+  float: right;
+  height: 37px;
+  width: 37px;
+  margin-top: 15px;
+  border-radius: 2px;
+  margin-right: 15px;
+}
+
+#workskin .t_asker {
+  color: #a6a6a6;
+  font-size: 13px;
+  display: inline-block;
+  width: 100%;
+  line-height: 21px;
+  margin-bottom: 7px;
+}
+
+#workskin .t_chat {
+  display: inline-block;
+  font-size: 14px;
+  width: 92%;
+  line-height: 1.4;
+  font-family: Courier, monospace;
+  padding-top: 3px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 3px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+#workskin .t_line {
+  display: block;
+  padding-top: 6px;
+  padding-right: 0px;
+  padding-bottom: 6px;
+  padding-left: 0px;
+  width: 100%;
+}
+
+#workskin .t_line:first-of-type {
+  padding-top: 0px;
+}
+
+#workskin .t_line:last-of-type {
+  padding-bottom: 0px;
+}
+
+#workskin .t_line:nth-of-type(even) {
+  background: #fdfdfd;
+}
+
+#workskin .strong {
+  font-weight: 700;
+}
+
+#workskin .t_line>strong:after {
+  content: "\A0";
+}
+
+#workskin .reblog {
+  height: 15px;
+  width: auto;
+}
+
+#workskin .reblogheader {
+  position: relative;
+  line-height: 25px;
+  padding-top: 15px;
+  padding-left: 20px;
+  width: 96%;
+  display: inline-block;
+  border-top: 1px solid #e7e7e7;
+  margin-top: 5px;
+}
+
+#workskin .reblogurl {
+  position: relative;
+  top: -.2em;
+  font-weight: 700;
+  font-size: 13px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  line-height: 25px;
+  height: 25px;
+  color: #8f8f8f;
+}
+
+#workskin .reblogicon {
+  border-radius: 2px;
+  width: 25px;
+  height: 25px;
+  vertical-align: baseline;
+}
+
+#workskin .sourceurl {
+  position: relative;
+  font-weight: 700;
+  font-size: 13px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+#workskin .reblogorigin {
+  width: 100%;
+  word-wrap: break-word;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+}
+
+#workskin .reblogtext {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  line-height: 21px;
+  font-size: 14px;
+  width: 92%;
+  word-wrap: break-word;
+}
+
+#workskin .reblogtext a {
+  color: #444444;
+}
+
+#workskin .news-article {
+  font-family: Georgia, "Times New Roman", serif;
+  max-width: 450px;
+  margin: auto;
+}
+
+#workskin .news-article .title {
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+#workskin .news-article .byline {
+  font-size: 0.85em;
+  color: #c7c7c7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#workskin .news-article .title,
+#workskin .news-article .title p,
+#workskin .news-article .byline,
+#workskin .news-article .byline p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+#workskin .news-article .interview {
+  padding-left: 15px;
+  border-left: 2px solid #c7c7c7;
+}
+
+#workskin .news-article .more-articles {
+  margin-top: 2em;
+  font-style: italic;
+}
+
+#workskin .news-article .more-articles .heading {
+  font-weight: bold;
+  border-top: 1px solid #c7c7c7;
+  padding-top: 0.3em;
+  margin-top: 0.8em;
+}
+
+#workskin .news-article .more-articles ul {
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+#workskin .news-article .more-articles li {
+  list-style: none !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  text-decoration-line: underline;
+}
+
+#workskin .news-article .more-articles li::before {
+  content: "▶";
+  color: #c7c7c7;
+  display: inline-block;
+  width: 1.4em;
+}
+
+
+#workskin .mail {
+  font-size: 80%;
+  width: 95%;
+  max-width: 1200px;
+  margin: 20px auto;
+  background: #ffffff;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  position: relative;
+  padding-top: 30px;
+  overflow: hidden;
+}
+
+#workskin .mail::before {
+  font-size: inherit;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 25px;
+  background: #f5f7fa;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+#workskin .mail::after {
+  font-size: inherit;
+  content: "";
+  position: absolute;
+  top: 8px;
+  right: 14px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ff5f57;
+  box-shadow: -18px 0 0 #ffbd2e,
+    -36px 0 0 #28c840;
+}
+
+#workskin .address-fields {
+  font-size: inherit;
+  display: flex;
+  flex-direction: column;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  color: #000000;
+  padding: 10px 12px;
+}
+
+#workskin .address-fields > div {
+  font-size: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+#workskin .from::before {
+  font-size: inherit;
+  content: "FROM";
+  width: 60px;
+  display: inline-block;
+  font-weight: 600;
+  color: #888;
+}
+
+#workskin .to::before {
+  font-size: inherit;
+  content: "TO";
+  width: 60px;
+  display: inline-block;
+  font-weight: 600;
+  color: #888;
+}
+
+#workskin .cc::before {
+  font-size: inherit;
+  content: "CC";
+  width: 60px;
+  display: inline-block;
+  font-weight: 600;
+  color: #888;
+}
+
+#workskin .bcc::before {
+  font-size: inherit;
+  content: "BCC";
+  width: 60px;
+  display: inline-block;
+  font-weight: 600;
+  color: #888;
+}
+
+#workskin .account {
+  font-size: inherit;
+  display: inline-flex;
+  align-items: center;
+  background: #f5f7fa;
+  border: 1px solid #dcdcdc;
+  border-radius: 999px;
+  padding: 0px 12px;
+  margin-right: 6px;
+  margin-bottom: 4px;
+  white-space: nowrap;
+  line-height: 1%;
+}
+
+#workskin .account .name {
+  font-size: inherit;
+  font-weight: 600;
+  color: #000000;
+  margin-right: 6px;
+}
+
+#workskin .account .mail-address {
+  color: #666666;
+}
+
+#workskin .mail-address {
+  font-family: inherit;
+}
+
+#workskin .account:hover {
+  background: #e9ecef;
+}
+
+#workskin .meta-data {
+  font-size: initial;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
+  border-top: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  background: #f3f6fb;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  align-items: center;
+  line-height: 1%;
+}
+
+#workskin .subject-line {
+  font-size: 120%;
+  font-weight: 600;
+  color: #000000;
+  max-width: 75%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#workskin .date {
+  font-size: inherit;
+  font-style: italic;
+  font-variant-numeric: tabular-nums;
+  padding: 3px 10px;
+  white-space: nowrap;
+}
+
+#workskin .attachements {
+  font-size: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 12px;
+}
+
+#workskin .attachements > div {
+  font-size: inherit;
+  display: inline-flex;
+  align-items: center;
+  padding: 0px 10px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  background: #ffffff;
+  color: #333333;
+  transition: all 0.15s ease;
+  line-height: 0.5;
+}
+
+#workskin .attachements > div:hover {
+  font-size: inherit;
+  background: #eef3ff;
+  border-color: #c9d6ff;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+#workskin .attachements > div::before {
+  font-size: inherit;
+  content: "📎";
+  margin-right: 3px;
+}
+
+#workskin .mail-body {
+  margin: 15px;
+  font-size: initial;
+  color: #000000
+}
+
