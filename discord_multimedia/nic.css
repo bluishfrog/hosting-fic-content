@@ -1,0 +1,316 @@
+#workskin .twt {
+  float: center;
+  max-width: 20em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin: 0em auto;
+  border: 1px solid #c7c7c7;
+  border-radius: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+#workskin .twt-header {
+  overflow: hidden;
+  margin-top: -0.5em;
+  margin-bottom: -2.8em;
+}
+
+#workskin .twt-icon-container {
+  float: left;
+}
+
+#workskin .twt-icon {
+  border-radius: 50%;
+  width: 3em;
+}
+
+#workskin .twt-iconquote {
+  border-radius: 50%;
+  width: 2em;
+}
+
+#workskin .twt-id {
+  padding-left: 1em;
+  overflow: hidden;
+}
+
+#workskin .twt-name {
+  font-weight: bold;
+}
+
+#workskin .twt-name:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#workskin .twt-handle {
+  font-size: 0.9em;
+  color: #657786;
+}
+
+#workskin .twt-handle:hover {
+  cursor: pointer;
+}
+
+#workskin .twt-content {
+  font-size: 1em;
+  margin-bottom: -1em;
+}
+
+#workskin .twt-contentquote {
+  font-size: 1em;
+  margin-bottom: -0.5em;
+}
+
+#workskin .twt-timestamp {
+  color: #657786;
+  font-size: 0.7em;
+}
+
+#workskin hr.twt-sep,
+#workskin hr.twt-sep-reply {
+  border: none;
+  height: 1px;
+  width: 100%;
+  margin-top: -0.5em;
+  margin-bottom: -0.5em;
+  background-color: #e6e6e6;
+}
+
+#workskin .twt-stat1 {
+  color: #657786;
+  font-size: 0.7em;
+}
+
+#workskin .twt-quotebox {
+  padding-left: 1em;
+  padding-right: 1em;
+  border: 1px solid #c7c7c7;
+  border-radius: 10px;
+}
+
+#workskin .twt-image {
+  float: center;
+  max-width: 100%;
+  border: 1px solid #c7c7c7;
+  border-radius: 10px;
+  margin-bottom: -0.5em;
+}
+
+#workskin .twt-icon-replycontainer {
+  float: left;
+}
+
+#workskin .twt-replycontainer {
+  padding-left: 1em;
+  overflow: hidden;
+}
+
+#workskin .twt-replycontent {
+  margin-top: -1.5em;
+  margin-bottom: -0.5em;
+}
+
+#workskin .twt-stat2 {
+  color: #657786;
+  font-size: 0.7em;
+  margin-top: -2em;
+}
+
+#workskin .twt-social {
+  float: left;
+  margin-right: 2em;
+  margin-bottom: -0.5em;
+}
+
+#workskin .twt-socialimg {
+  height: 12px;
+  display: inline;
+  padding-right: 3px;
+}
+
+#workskin .twt-hl {
+  font-size: 0.9em;
+  color: #1DA1F2;
+}
+
+#workskin .twt-hl:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#workskin .tungle {
+  max-width: 500px;
+  font-family: Gibson,Helvetica Neue,HelveticaNeue,Helvetica,Arial,sans-serif;
+  display: table;
+  margin: auto;
+  color: #444444;
+}
+
+#workskin .tunglebody {
+  background-color: #ffffff;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: .1em;
+  border-color: #dddddd;
+  float: left;
+  max-width: 100%;
+  position: relative;
+  padding: 15px 0 0;
+}
+
+#workskin .tungleurl {
+  position: relative;
+  top: -.2em;
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 50px;
+  margin-left: 20px;
+  line-height: 20px;
+  height: 20px;
+}
+
+#workskin .tungletext {
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 20px;
+  line-height: 21px;
+  font-size: 14px;
+  width: 92%;
+  word-wrap: break-word;
+}
+
+#workskin .tungletext a {
+  color: #444444;
+}
+
+#workskin .tungleh {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 47px;
+  width: 92%;
+  word-wrap: break-word;
+}
+
+#workskin .tungletags {
+  display: inline-block;
+  width: 92%;
+  font-size: 13px;
+  color: #8f8f8f;
+  margin-top: 15px;
+  line-height: 20px;
+  position: relative;
+  margin-left: 20px;
+}
+
+#workskin .tungletag {
+  margin-left: 12px;
+}
+
+#workskin .tungletag:first-of-type {
+  margin-left: 0px;
+}
+
+#workskin .tunglenotes {
+  font-size: 14px;
+  font-weight: bold;
+  color: #8f8f8f;
+  line-height: 45px;
+  position: relative;
+  margin-left: 20px;
+}
+
+#workskin .tungleicons {
+  height: 45px;
+  width: auto;
+  float: right;
+  margin-right: 10px;
+}
+
+#workskin .tungleimg {
+  max-width: 100%;
+  height: auto;
+}
+
+#workskin .reblog {
+  height: 15px;
+  width: auto;
+}
+
+#workskin .reblogheader {
+  position: relative;
+  line-height: 25px;
+  padding-top: 15px;
+  padding-left: 20px;
+  width: 96%;
+  display: inline-block;
+  border-top: 1px solid #e7e7e7;
+  margin-top: 5px;
+}
+
+#workskin .reblogurl {
+  position: relative;
+  top: -.2em;
+  font-weight: 700;
+  font-size: 13px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  line-height: 25px;
+  height: 25px;
+  color: #8f8f8f;
+}
+
+#workskin .reblogicon {
+  border-radius: 2px;
+  width: 25px;
+  height: 25px;
+  vertical-align: baseline;
+}
+
+#workskin .sourceurl {
+  position: relative;
+  font-weight: 700;
+  font-size: 13px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+#workskin .reblogorigin {
+  width: 100%;
+  word-wrap: break-word;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+}
+
+#workskin .reblogtext {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  line-height: 21px;
+  font-size: 14px;
+  width: 92%;
+  word-wrap: break-word;
+}
+
+#workskin .reblogtext a {
+  color: #444444;
+}
+
+#workskin .tungleavatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+#workskin .tungleuser {
+  font-weight: 700;
+  font-size: 14px;
+  vertical-align: middle;
+}
