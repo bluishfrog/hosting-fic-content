@@ -244,6 +244,19 @@
 .imessage .in dd.typing div:nth-child(2) {opacity: 0.7;}
 .imessage .in dd.typing div:nth-child(3) {opacity: 1;}
 
+
+
+.imessage .in dd.typinganimation {
+    padding: 0.45em 0.9em;
+    background: #e5e5ea;
+}
+
+.imessage .in dd.typinganimation img {
+    display: block;
+    width: 2.9em;
+    height: auto;
+}
+
 /**************************************************
 *	little grey text stuff
 *	(aka time + read receipts + grouptext-mode names)
