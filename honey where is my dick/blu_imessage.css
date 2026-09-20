@@ -1,0 +1,398 @@
+/**************************************************
+*	wrapper
+**************************************************/
+.imessage {
+	width: 100%;
+	max-width: 330px;
+	font-family: "Helvetica Neue", Helvetica, system-ui;
+	display: table;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+/* Everything takes on the font */
+.imessage * {
+	font-family: inherit;
+}
+
+/* characters's names hidden */
+.imessage dt {
+	display: none;
+}
+
+/**************************************************
+*	border
+**************************************************/
+.imessage.border {
+	border: 1px solid rgba(60, 60, 67, 0.29);
+}
+
+.imessage.border .contact {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+/**************************************************
+*	Texts
+**************************************************/
+/* space for the tails */
+.imessage .in,
+.imessage .out {
+	margin-left: 0.625em;
+	margin-right: 0.625em;
+}
+
+/* shared text features */
+.imessage .in dd,
+.imessage .out dd {
+	line-height: 1.3em;
+	margin: 1px 0;
+	border-radius: 1em;
+	padding: 0.45em 0.9em;
+	max-width: 70%;
+	clear: both;
+	position: relative;
+	z-index: 1;
+}
+/* tails */
+.imessage .in dd:last-of-type::after,
+.imessage .out dd:last-of-type::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	width: 0.625em;
+	height: 1em;
+	z-index: -1;
+}
+/* the last part in a text series has more space after it
+ * (not necessarily a text, could be a read receipt) */
+.imessage .in dd:last-child,
+.imessage .out dd:last-child {
+	margin-bottom: 1rem;
+}
+
+.imessage .out dd {
+	float: right;
+	background: #007aff;
+	color: white;
+}
+.imessage .out dd:last-of-type::after {
+	right: -0.625em;
+	border-left: 0.625em solid #007aff;
+	border-bottom-left-radius: 1.25em 0.625em;
+}
+
+.imessage .in dd {
+	float: left;
+	background: #e5e5ea;
+	color: black;
+}
+.imessage .in dd:last-of-type::after {
+	left: -0.625em;
+	border-right: 0.625em solid #e5e5ea;
+	border-bottom-right-radius: 1.25em 0.625em;
+}
+
+/**************************************************
+*	manage different kinds of text content
+**************************************************/
+/* no tail */
+.imessage dd.pic::after,
+.imessage dd.emoji::after {
+	display: none;
+}
+
+/* 3x emoji */
+.imessage dd.emoji {
+	background: none;
+	border-radius: 0;
+	padding: 0.5rem 0;
+	font-size: 3em;
+}
+
+/* picture */
+.imessage dd.pic {
+	background: none;
+	padding: 0;
+	overflow: hidden;
+}
+.imessage dd.pic img {
+	max-width: 100%;
+	display: block;
+}
+
+/* plain link */
+.imessage dd a {
+	word-break: break-all;
+	color: inherit;
+}
+
+/**************************************************
+*		rich link
+**************************************************/
+.imessage dd.richlink {
+	padding: 0;
+	color: black;
+	background: #e5e5ea !important;
+}
+/* Even outgoing texts are incoming-colored */
+.imessage dd.richlink::after {
+	border-color: #e5e5ea !important;
+}
+
+.imessage dd.richlink a {
+	display: table;
+	font-size: 0.75rem;
+	word-break: normal;
+	text-decoration: none;
+	border: none;
+	border-top-left-radius: inherit;
+	border-top-right-radius: inherit;
+	overflow: hidden;
+}
+
+.imessage dd.richlink a iframe,
+.imessage dd.richlink a img {
+	display: table-row;
+	border: none;
+	max-width: 100%;
+}
+/* default aspect ratio, 16:9 */
+.imessage dd.richlink a iframe {
+	width: 210px;
+	height: 118px;
+}
+/* aspect ratio 4:3 */
+.imessage dd.richlink a iframe.SD {
+	width: 210px;
+	height: 157px;
+}
+/* tall narrow images can't be THAT big */
+.imessage dd.richlink a img {
+	max-height: 250px;
+}
+
+.imessage dd.richlink a .caption {
+	display: table-caption;
+	caption-side: bottom;
+	position: relative;
+	margin: 1em 1.5em;
+	color: #8e8e93;
+}
+.imessage dd.richlink a .caption b {
+	display: block;
+	margin-bottom: 0.5em;
+	color: black;
+}
+
+/* arrow, if it's a video */
+.imessage dd.richlink a iframe + .caption {
+	margin-right: 2.5em;
+}
+.imessage dd.richlink a iframe + .caption::after {
+	content: "";
+	position: absolute;
+	right: -1em;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 0.75em;
+	height: 0.75em;
+	border-right: 1.5px solid #8e8e93;
+	border-bottom: 1.5px solid #8e8e93;
+	transform: rotate(-45deg);
+}
+
+/**************************************************
+*		Typing dot-dot-dot
+**************************************************/
+/* weird tail*/
+.imessage .in dd.typing::before,
+.imessage .in dd.typing::after {
+	content: "";
+	position: absolute;
+	border-radius: 100%;
+	background: #e5e5ea;
+	border: none;
+}
+.imessage .in dd.typing::after {
+	bottom: 0;
+	left: -0.15625em;
+	width: 0.625em;
+	height: 0.625em;
+}
+.imessage .in dd.typing::before {
+	bottom: -0.2em;
+	left: -0.3125em;
+	width: 0.3125em;
+	height: 0.3125em;
+}
+
+/* dots */
+.imessage .in dd.typing div {
+	height: 0.625em;
+	width: 0.625em;
+	border-radius: 100%;
+	background: #8e8e93;
+	display: inline-block;
+	margin: 0.125em 0;
+}
+.imessage .in dd.typing div:nth-child(1) {opacity: 0.4;}
+.imessage .in dd.typing div:nth-child(2) {opacity: 0.7;}
+.imessage .in dd.typing div:nth-child(3) {opacity: 1;}
+
+/**************************************************
+*	little grey text stuff
+*	(aka time + read receipts + grouptext-mode names)
+**************************************************/
+.imessage .time,
+.imessage.grouptext .in dt,
+.imessage .out .read {
+	clear: both;
+	font-weight: normal;
+	color: #8e8e93;
+	font-size: 0.75rem;
+}
+
+/* time */
+.imessage .time {
+	display: block;
+	text-align: center;
+	margin: 0;
+	padding: 1rem;
+}
+
+/* read receipt */
+.imessage .out .read {
+	float: right;
+	display: table;
+	padding: 0;
+	margin: 0;
+}
+
+/* show the names with incoming texts for grouptext mode */
+.imessage.grouptext .in dt {
+	padding-left: 1em;
+	display: table !important;
+}
+
+/**************************************************
+*		Contact header
+**************************************************/
+.imessage .contact {
+	position: relative;
+	background: #f2f2f7;
+	border: 1px solid rgba(60, 60, 67, 0.29);
+	margin: 0;
+	text-align: center;
+	font-size: 1.2em;
+	line-height: 3em;
+	font-weight: bold;
+	white-space: nowrap;
+}
+/* back arrow */
+.imessage .contact::before {
+	content: "";
+	position: absolute;
+	left: 1em;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 0.75em;
+	height: 0.75em;
+	border-left: 2.5px solid #007aff;
+	border-bottom: 2.5px solid #007aff;
+	transform: rotate(45deg);
+}
+
+/**************************************************
+*		Type bar footer
+**************************************************/
+.imessage .footer {
+	clear: both;
+	position: relative;
+	margin: 0.25em;
+}
+
+/* camera icon */
+.imessage .footer::before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 2em;
+	width: 3em;
+	background: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/black/fa-camera.png") no-repeat center;
+	background-size: auto 1.25em;
+	opacity: 0.5;
+}
+
+/*  the bit with a border where you type in the text  */
+.imessage .footer .typebar {
+	position: relative;
+	display: block;
+	font-size: 1rem;
+	border: 1px solid rgba(60, 60, 67, 0.29);
+	box-sizing: border-box;
+	border-radius: 1em;
+	margin-left: 3em;
+	padding-right: 2.5em;
+	padding: 0.25em 1em;
+	line-height: 1.5em;
+}
+
+/* Send button */
+.imessage .footer .typebar::before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin: 0.2em;
+	height: 1.6em;
+	width: 1.6em;
+	border-radius: 100%;
+	background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-arrow-up.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #007aff;
+	background-size: auto 0.7em;
+}
+
+/* blue caret */
+.imessage .footer .typebar::after {
+	content: "";
+	border-right: 2px solid #007aff;
+}
+
+/* filler text if typebar is empty */
+.imessage .footer .typebar:empty::after {
+	color: rgba(60, 60, 67, 0.29);
+	content: "iMessage";
+	/* the border is on the left side here, not right */
+	border: none;
+	border-left: 2px solid #007aff;
+}
+
+/**************************************************
+*		SMS mode (aka green)
+**************************************************/
+.imessage.sms .out dd,
+.imessage .out.sms dd {
+	background: #34c759;
+}
+.imessage.sms .out dd::after,
+.imessage .out.sms dd::after {
+	border-color: #34c759;
+}
+
+/* send button */
+.imessage.sms .typebar::before {
+	background-color: #34c759;
+}
+/* filler text */
+.imessage.sms .typebar:empty::after {
+	content: "Text Message";
+}
