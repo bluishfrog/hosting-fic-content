@@ -396,3 +396,41 @@
 .imessage.sms .typebar:empty::after {
 	content: "Text Message";
 }
+
+
+/**************************************************
+*   Emoji reactions
+**************************************************/
+
+.imessage dd.reacted {
+    margin-bottom: 1em;
+}
+
+.imessage .reaction {
+    position: absolute;
+    bottom: -0.65em;
+    right: 1em;
+
+    min-width: 1.4em;
+    height: 1.4em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #fff;
+    border: 1px solid rgba(60, 60, 67, 0.25);
+    border-radius: 50%;
+
+    font-size: 0.75em;
+    line-height: 1;
+
+    padding: 0.15em;
+    z-index: 2;
+    box-sizing: content-box;
+}
+
+.imessage .out dd.reacted .reaction {
+    left: 0.25em;
+    right: auto;
+}
