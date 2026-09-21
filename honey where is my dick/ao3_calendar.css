@@ -1,0 +1,1604 @@
+/* =========================================================
+   CALENDAR
+   ========================================================= */
+
+.ao3-calendar {
+    width: 100%;
+    min-width: 300px;
+    max-width: 500px;
+
+    margin: 2em auto;
+
+    box-sizing: border-box;
+
+    border-radius: 3px;
+    border: 1px solid #d2d1dc;
+
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+
+    color: #29272f;
+
+    background: #f8f7ff;
+
+    overflow: visible;
+
+    line-height: 1.5em;
+    font-size: 1.2em;
+}
+
+/* =========================================================
+   FIX PARAGRAPH STUFF
+   ========================================================= */
+
+.ao3-calendar p {
+    margin: 0 0 1em;
+}
+
+.ao3-calendar-header p {
+    margin: 0;
+    padding: 0;
+}
+
+.ao3-calendar-footer p {
+    display: none;
+    line-height: 1;
+}
+
+.ao3-calendar-more br {
+    display: none;
+}
+
+.ao3-calendar-legend-item br {
+    display: none;
+}
+
+.ao3-calendar-month p {
+    margin: 0;
+    padding: 0;
+}
+
+.ao3-calendar-month br {
+    display: none;
+}
+
+.ao3-event-title p,
+.ao3-event-time p {
+    margin: 0;
+    padding: 0;
+}
+
+.ao3-calendar-time p {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+.ao3-event-calendar-name {
+    line-height:1.2;
+    white-space:nowrap;
+}
+
+.ao3-event-calendar-name br {
+    display:none;
+}
+
+.ao3-event-calendar-name p {
+    display:inline;
+    margin:0;
+    padding:0;
+    line-height:1.2;
+}
+
+.ao3-event-calendar-dot {
+    display:inline-block;
+    vertical-align:middle;
+    width:8px;
+    height:8px;
+    margin-right:6px;
+    border-radius:50%;
+}
+
+
+/* =========================================================
+   TAGGED PERSON
+   ========================================================= */
+
+.ao3-calendar-tag {
+    color: #4f64c4;
+    font-weight: 500;
+}
+
+
+/* =========================================================
+   TOP APP BAR
+   ========================================================= */
+
+.ao3-calendar-header {
+    position: relative;
+
+    display: block;
+
+    min-height: 58px;
+
+    box-sizing: border-box;
+
+    padding: 8px 10px 8px 12px;
+
+    background: #f0effa;
+
+    border: 0;
+
+    text-align: left;
+}
+
+
+/* Left side */
+
+.ao3-calendar-header-left {
+    display: block;
+
+    float: left;
+
+    min-width: 0;
+
+    height: 42px;
+
+    line-height: 42px;
+}
+
+
+/* Hamburger */
+
+.ao3-calendar-menu {
+    display: inline-block;
+
+    width: 38px;
+    height: 38px;
+
+    margin-right: 3px;
+
+    color: #4e4b56;
+
+    font-size: 22px;
+    line-height: 38px;
+
+    font-weight: 300;
+
+    text-align: center;
+}
+
+
+/* Month */
+
+.ao3-calendar-month {
+    display: inline-block;
+
+    min-width: 0;
+
+    font-size: 1.08em;
+    line-height: 1;
+
+    font-weight: 500;
+
+    color: #29272f;
+
+    white-space: nowrap;
+}
+
+
+/* Month arrow */
+
+.ao3-calendar-month-arrow {
+    display: inline-block;
+
+    margin-left: 3px;
+
+    width: 0;
+    height: 3px;
+
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 5px solid #4e4b56;
+}
+
+
+/* =========================================================
+   HEADER ACTIONS
+   ========================================================= */
+
+.ao3-calendar-header-actions {
+    float: right;
+
+    height: 42px;
+
+    white-space: nowrap;
+}
+
+
+.ao3-calendar-action {
+    position: relative;
+
+    display: inline-block;
+
+    width: 36px;
+    height: 36px;
+
+    margin-left: 2px;
+
+    box-sizing: border-box;
+
+    color: #4e4b56;
+
+    font-size: 18px;
+
+    line-height: 36px;
+
+    text-align: center;
+
+    border-radius: 50%;
+}
+
+
+/* Search */
+
+.ao3-calendar-search {
+    display: inline-block;
+
+    width: 17px;
+    height: 17px;
+
+    box-sizing: border-box;
+
+    border: 2px solid #4e4b56;
+
+    border-radius: 50%;
+}
+
+
+.ao3-calendar-search:after {
+    content: "";
+
+    position: absolute;
+
+    width: 7px;
+    height: 2px;
+
+    right: 7px;
+    bottom: 8px;
+
+    background: #4e4b56;
+
+    transform: rotate(45deg);
+
+    border-radius: 2px;
+}
+
+
+/* Today icon */
+
+.ao3-calendar-today-icon {
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+
+    box-sizing: border-box;
+
+    border: 2px solid #4e4b56;
+
+    border-radius: 2px;
+
+    font-size: 9px;
+    font-weight: 600;
+
+    line-height: 16px;
+
+    text-align: center;
+}
+
+
+/* More */
+
+.ao3-calendar-more {
+    display: inline-block;
+
+    width: 3px;
+    height: 13px;
+
+    position: relative;
+}
+
+
+.ao3-calendar-more span {
+    display: block;
+
+    width: 3px;
+    height: 3px;
+
+    margin-bottom: 3px;
+
+    border-radius: 50%;
+
+    background: #4e4b56;
+}
+
+
+/* =========================================================
+   DAY HEADER
+   ========================================================= */
+
+.ao3-calendar-day-header {
+    display: block;
+
+    height: 80px;
+
+    box-sizing: border-box;
+
+    background: #f8f7ff;
+
+    border-bottom: 1px solid #dedde7;
+
+    overflow: hidden;
+
+}
+
+
+.ao3-calendar-day-marker {
+    float: left;
+
+    width: 14.285%;
+
+    height: 66px;
+
+    box-sizing: border-box;
+
+    padding-top: 10px;
+
+    color: #9a98a1;
+
+    text-align: center;
+}
+
+
+.ao3-calendar-weekday {
+    margin: 0 0 4px;
+
+    font-size: 0.64em;
+
+    line-height: 1;
+
+    font-weight: 500;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.02em;
+
+    color: #8f8c96;
+}
+
+
+.ao3-calendar-date {
+    display: inline-block;
+
+    width: 34px;
+    height: 34px;
+
+    font-size: 1.08em;
+
+    line-height: 34px;
+
+    font-weight: 400;
+
+    border-radius: 50%;
+
+    color: #77747d;
+
+    text-align: center;
+}
+
+
+/* Current day */
+
+.ao3-calendar-today {
+    color: #4f64c4;
+}
+
+
+.ao3-calendar-today .ao3-calendar-weekday {
+    color: #4f64c4;
+
+    font-weight: 600;
+}
+
+
+.ao3-calendar-today .ao3-calendar-date {
+    background: #4f64c4;
+
+    color: #ffffff;
+
+    font-weight: 500;
+}
+
+
+/* =========================================================
+   CALENDAR BODY
+   ========================================================= */
+
+.ao3-calendar-body {
+    position: relative;
+
+    height: 1080px;
+
+    box-sizing: border-box;
+
+    background: #f8f7ff;
+
+    overflow: visible;
+}
+
+
+/* =========================================================
+   TIME COLUMN
+   ========================================================= */
+
+.ao3-calendar-times {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    bottom: 0;
+
+    width: 48px;
+
+    box-sizing: border-box;
+
+    background: #f8f7ff;
+
+    border-right: 1px solid #dedde7;
+
+    z-index: 3;
+}
+
+
+.ao3-calendar-time {
+    position: absolute;
+
+    right: 7px;
+
+    transform: translateY(-50%);
+
+    font-size: 0.66em;
+
+    line-height: 1;
+
+    font-weight: 400;
+
+    color: #6d6a75;
+
+    white-space: nowrap;
+}
+
+
+/* =========================================================
+   EVENT AREA
+   ========================================================= */
+
+.ao3-calendar-events {
+    position: absolute;
+
+    top: 0;
+    left: 48px;
+    right: 4px;
+    bottom: 0;
+
+    overflow: visible;
+
+    z-index: 205;
+}
+
+
+/* =========================================================
+   EVENTS
+   ========================================================= */
+
+.ao3-event {
+    position: absolute;
+
+    display: block;
+
+    box-sizing: border-box;
+
+    width: auto;
+
+    min-width: 0;
+
+    margin: 0;
+    padding: 0;
+
+    border-radius: 5px;
+
+    font-size: 0.76em;
+
+    line-height: 1.25;
+
+    overflow: visible;
+
+    box-shadow: none;
+}
+
+
+.ao3-event>summary {
+    display: block;
+
+    position: relative;
+
+    box-sizing: border-box;
+
+    width: 100%;
+    height: 100%;
+
+    margin: 0;
+    padding: 5px 7px;
+
+    cursor: pointer;
+
+    list-style: none;
+
+    overflow: hidden;
+
+    color: inherit;
+}
+
+
+.ao3-event>summary p {
+    margin: 0;
+    padding: 0;
+}
+
+
+.ao3-event>summary::-webkit-details-marker {
+    display: none;
+}
+
+
+.ao3-event>summary::marker {
+    display: none;
+}
+
+/* =========================================================
+   EVENT TYPOGRAPHY
+   ========================================================= */
+
+.ao3-event-title {
+    margin: 0;
+
+    font-size: 1em;
+
+    line-height: 1.25;
+
+    font-weight: 500;
+
+    white-space: nowrap;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+}
+
+
+.ao3-event-time {
+    margin-top: 2px;
+
+    font-size: 0.84em;
+
+    line-height: 1.2;
+
+    font-weight: 400;
+
+    opacity: 0.92;
+
+    white-space: nowrap;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+}
+
+
+
+/* =========================================================
+   EVENT COLORS
+   ========================================================= */
+
+.ao3-event-blue {
+    background: #d9e8ff;
+
+    border-left: 4px solid #4285f4;
+
+    color: #174ea6;
+}
+
+
+.ao3-event-green {
+    background: #d9f0e2;
+
+    border-left: 4px solid #34a853;
+
+    color: #176b36;
+}
+
+
+.ao3-event-red {
+    background: #fce1e1;
+
+    border-left: 4px solid #ea4335;
+
+    color: #a50e0e;
+}
+
+
+.ao3-event-yellow {
+    background: #fff0c7;
+
+    border-left: 4px solid #fbbc04;
+
+    color: #765500;
+}
+
+
+.ao3-event-purple {
+    background: #eadcf8;
+
+    border-left: 4px solid #8e63ce;
+
+    color: #5b2a86;
+}
+
+
+.ao3-event-pink {
+    background: #f7dce5;
+
+    border-left: 4px solid #d9577a;
+
+    color: #8f2947;
+}
+
+
+.ao3-event-teal {
+    background: #c1e9ec;
+
+    border-left: 4px solid #0f8d96;
+
+    color: #006D75;
+}
+
+
+/* =========================================================
+   EVENT WIDTHS
+   ========================================================= */
+
+/*
+ * IMPORTANT:
+ *
+ * We are replacing calc() with simple percentages.
+ * There will be slightly less precise gaps between
+ * overlapping events, but AO3 will accept them.
+ */
+
+.ao3-event-full {
+    left: 1%;
+
+    width: 98%;
+}
+
+
+.ao3-event-col-1-of-2 {
+    left: 1%;
+
+    width: 48%;
+}
+
+
+.ao3-event-col-2-of-2 {
+    left: 51%;
+
+    width: 48%;
+}
+
+
+.ao3-event-col-1-of-3 {
+    left: 1%;
+
+    width: 31%;
+}
+
+
+.ao3-event-col-2-of-3 {
+    left: 34%;
+
+    width: 31%;
+}
+
+
+.ao3-event-col-3-of-3 {
+    left: 67%;
+
+    width: 31%;
+}
+
+
+/* =========================================================
+   EVENT HOVER / OPEN
+   ========================================================= */
+
+.ao3-event>summary:hover {
+    filter: brightness(0.96);
+}
+
+
+.ao3-event[open] {
+    z-index: 250;
+}
+
+
+.ao3-event[open]>summary {
+    filter: brightness(0.94);
+}
+
+
+/* =========================================================
+   EVENT DETAIL POPUP
+   ========================================================= */
+
+.ao3-event-details {
+    position: absolute;
+
+    top: 100%;
+
+    left: 0;
+
+    width: 275px;
+
+    margin-top: 6px;
+
+    box-sizing: border-box;
+
+    padding: 16px 17px 17px;
+
+    background: #ffffff;
+
+    border: 1px solid #dad8df;
+
+    border-radius: 10px;
+
+    color: #37343c;
+
+    box-shadow:
+        0 2px 4px rgba(40, 38, 48, 0.12),
+        0 5px 14px rgba(40, 38, 48, 0.14);
+
+    z-index: 250;
+}
+
+
+/* Right-side events open toward the left */
+
+.ao3-event-col-2-of-2 .ao3-event-details,
+.ao3-event-col-3-of-3 .ao3-event-details {
+    left: auto;
+
+    right: 0;
+}
+
+/* =========================================================
+   BOTTOM EVENTS — OPEN POPUP UPWARD
+   ========================================================= */
+
+.ao3-event-popup-up .ao3-event-details {
+    top: auto;
+
+    bottom: 100%;
+
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+
+/* =========================================================
+   PENDING CALENDAR INVITATION
+   ========================================================= */
+
+.ao3-event-invite-pending {
+    border-left-style: dotted;
+}
+
+.ao3-event.ao3-event-invite-pending {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.ao3-event-invite-pending.ao3-event-blue {
+    background: #e8f1ff;
+}
+
+.ao3-event-invite-pending.ao3-event-green {
+    background: #e8f5ed;
+}
+
+.ao3-event-invite-pending.ao3-event-red {
+    background: #fdeeee;
+}
+
+.ao3-event-invite-pending.ao3-event-yellow {
+    background: #fff6dc;
+}
+
+.ao3-event-invite-pending.ao3-event-purple {
+    background: #f1e9fa;
+}
+
+.ao3-event-invite-pending.ao3-event-pink {
+    background: #fbeaf0;
+}
+
+.ao3-event-invite-pending.ao3-event-teal {
+    background: #d9eff1;
+}
+
+
+/* =========================================================
+   PENDING INVITATION ROW
+   ========================================================= */
+
+.ao3-event-invite-row {
+    white-space: nowrap;
+
+    margin: 0 0 13px;
+
+    line-height: 1;
+}
+
+.ao3-event-invite-row p {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+.ao3-event-invite-row br {
+    display: none;
+}
+
+/* =========================================================
+   PENDING INVITATION STATUS
+   ========================================================= */
+
+.ao3-event-invite-status {
+    display: inline-block;
+
+    width: auto;
+
+    margin: 0;
+
+    padding: 3px 7px;
+
+    box-sizing: border-box;
+
+    border: 1px solid #d2d1dc;
+    border-radius: 4px;
+
+    font-size: 0.72em;
+
+    line-height: 1.3;
+
+    font-weight: 500;
+
+    color: #6d6a75;
+
+    background: #f5f4f8;
+}
+
+
+/* AO3 paragraph cleanup */
+
+.ao3-event-invite-status p {
+    display: inline;
+
+    margin: 0;
+
+    padding: 0;
+
+    line-height: 1.3;
+}
+
+
+.ao3-event-invite-status br {
+    display: none;
+}
+
+
+/* =========================================================
+   ACCEPT / DECLINE
+   ========================================================= */
+
+.ao3-event-invite-actions {
+    display: inline-block;
+
+    margin-left: 5px;
+
+    white-space: nowrap;
+
+    vertical-align: middle;
+}
+
+
+.ao3-event-invite-actions p {
+    display: inline;
+
+    margin: 0;
+
+    padding: 0;
+
+    line-height: 1;
+}
+
+
+.ao3-event-invite-actions br {
+    display: none;
+}
+
+
+.ao3-event-invite-accept,
+.ao3-event-invite-decline {
+    display: inline-block;
+
+    width: 18px;
+    height: 18px;
+
+    margin-left: 2px;
+
+    box-sizing: border-box;
+
+    border-radius: 50%;
+
+    font-size: 0.9em;
+
+    line-height: 17px;
+
+    font-weight: 600;
+
+    text-align: center;
+
+    vertical-align: middle;
+}
+
+
+.ao3-event-invite-accept {
+    color: #176b36;
+
+    background: #d9f0e2;
+}
+
+
+.ao3-event-invite-decline {
+    color: #a50e0e;
+
+    background: #fce1e1;
+}
+
+
+/* =========================================================
+   POPUP CONTENT
+   ========================================================= */
+
+
+.ao3-event-details h3 {
+    margin: 0 0 8px;
+
+    padding: 0;
+
+    font-size: 1.12em;
+
+    line-height: 1.3;
+
+    font-weight: 600;
+
+    color: inherit;
+
+    border: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+
+    text-decoration: none;
+}
+
+/* Detail title colors */
+
+.ao3-event-blue .ao3-event-details h3 {
+    color: #174ea6;
+}
+
+.ao3-event-green .ao3-event-details h3 {
+    color: #176b36;
+}
+
+.ao3-event-red .ao3-event-details h3 {
+    color: #a50e0e;
+}
+
+.ao3-event-yellow .ao3-event-details h3 {
+    color: #765500;
+}
+
+.ao3-event-purple .ao3-event-details h3 {
+    color: #5b2a86;
+}
+
+.ao3-event-pink .ao3-event-details h3 {
+    color: #8f2947;
+}
+
+.ao3-event-teal .ao3-event-details h3 {
+    color: #006D75;
+}
+
+.ao3-event-details-meta {
+    margin: 0 0 13px;
+
+    font-size: 0.82em;
+
+    line-height: 1.45;
+
+    color: #69666f;
+}
+
+
+.ao3-event-details p {
+    margin: 0 0 10px;
+
+    font-size: 0.88em;
+
+    line-height: 1.5;
+
+    color: #45424b;
+}
+
+
+.ao3-event-calendar-name {
+    display: block;
+
+    margin-top: 10px;
+
+    font-size: 0.78em;
+
+    color: #77737c;
+}
+
+
+.ao3-event-calendar-dot {
+    display: inline-block;
+
+    width: 8px;
+    height: 8px;
+
+    margin-right: 6px;
+
+    border-radius: 50%;
+
+    background: currentColor;
+}
+
+
+/* =========================================================
+   EVENT DETAIL NOTES
+   ========================================================= */
+
+.ao3-event-details-notes {
+    margin: 0 0 13px 2px;
+
+    padding: 2px 0 2px 11px;
+
+    border-left: 3px solid #0f8d96;
+}
+
+
+/* Notes inherit the normal popup text styling */
+
+.ao3-event-details-notes p {
+    margin: 0 0 9px;
+
+    font-size: 0.86em;
+
+    line-height: 1.5;
+
+    color: #45424b;
+}
+
+
+/* Remove extra space after the final note */
+
+.ao3-event-details-notes p:last-child {
+    margin-bottom: 0;
+}
+
+/* =========================================================
+   NOTE RAIL COLORS
+   ========================================================= */
+
+.ao3-event-blue .ao3-event-details-notes {
+    border-left-color: #4285f4;
+}
+
+.ao3-event-green .ao3-event-details-notes {
+    border-left-color: #34a853;
+}
+
+.ao3-event-red .ao3-event-details-notes {
+    border-left-color: #ea4335;
+}
+
+.ao3-event-yellow .ao3-event-details-notes {
+    border-left-color: #fbbc04;
+}
+
+.ao3-event-purple .ao3-event-details-notes {
+    border-left-color: #8e63ce;
+}
+
+.ao3-event-pink .ao3-event-details-notes {
+    border-left-color: #d9577a;
+}
+
+.ao3-event-teal .ao3-event-details-notes {
+    border-left-color: #0f8d96;
+}
+
+
+/* =========================================================
+   CURRENT TIME INDICATOR
+   ========================================================= */
+
+.ao3-calendar-now {
+    position: absolute;
+
+    left: 0;
+    right: 0;
+
+    height: 2px;
+
+    background: #ea4335;
+
+    z-index: 80;
+}
+
+
+.ao3-calendar-now:before {
+    content: "";
+
+    position: absolute;
+
+    left: -3px;
+    top: -3px;
+
+    width: 8px;
+    height: 8px;
+
+    border-radius: 50%;
+
+    background: #ea4335;
+}
+
+
+/* =========================================================
+   FLOATING ADD BUTTON
+   ========================================================= */
+
+.ao3-calendar-fab {
+    position: absolute;
+
+    right: 14px;
+    bottom: 14px;
+
+    width: 48px;
+    height: 48px;
+
+    box-sizing: border-box;
+
+    border-radius: 16px;
+
+    background: #4f64c4;
+
+    color: #ffffff;
+
+    font-size: 25px;
+
+    font-weight: 300;
+
+    line-height: 44px;
+
+    text-align: center;
+
+    box-shadow:
+        0 2px 5px rgba(40, 38, 48, 0.18);
+
+    z-index: 150;
+}
+
+
+/* =========================================================
+   CALENDAR FOOTER / LEGEND
+   ========================================================= */
+
+.ao3-calendar-legend {
+    display: block;
+
+    min-height: 20px;
+
+    padding: 10px 14px;
+
+    box-sizing: border-box;
+
+    background: #f0effa;
+
+    border-top: 1px solid #dedde7;
+
+    font-size: 0.8em;
+
+    color: #6d6a75;
+}
+
+
+.ao3-calendar-legend-item {
+    display: inline-block;
+
+    margin-right: 15px;
+}
+
+
+.ao3-calendar-legend-dot {
+    display: inline-block;
+
+    width: 9px;
+    height: 9px;
+
+    margin-right: 3px;
+
+    border-radius: 50%;
+}
+
+
+/* =========================
+   TIME LABEL POSITIONS
+   ========================= */
+
+.ao3-calendar-time-7am {
+    top: 60px;
+}
+
+.ao3-calendar-time-8am {
+    top: 120px;
+}
+
+.ao3-calendar-time-9am {
+    top: 180px;
+}
+
+.ao3-calendar-time-10am {
+    top: 240px;
+}
+
+.ao3-calendar-time-11am {
+    top: 300px;
+}
+
+.ao3-calendar-time-12pm {
+    top: 360px;
+}
+
+.ao3-calendar-time-1pm {
+    top: 420px;
+}
+
+.ao3-calendar-time-2pm {
+    top: 480px;
+}
+
+.ao3-calendar-time-3pm {
+    top: 540px;
+}
+
+.ao3-calendar-time-4pm {
+    top: 600px;
+}
+
+.ao3-calendar-time-5pm {
+    top: 660px;
+}
+
+.ao3-calendar-time-6pm {
+    top: 720px;
+}
+
+.ao3-calendar-time-7pm {
+    top: 780px;
+}
+
+.ao3-calendar-time-8pm {
+    top: 840px;
+}
+
+.ao3-calendar-time-9pm {
+    top: 900px;
+}
+
+.ao3-calendar-time-10pm {
+    top: 960px;
+}
+
+.ao3-calendar-time-11pm {
+    top: 1020px;
+}
+
+
+/* =========================
+   EVENT POSITIONS
+   ========================= */
+
+/* 7:00 AM – 10:30 AM */
+
+.ao3-event-7am-1030am {
+    top: 60px;
+    height: 210px;
+}
+
+
+/* =========================
+   CURRENT TIME
+   ========================= */
+
+.ao3-calendar-now-830am {
+    top: 90px;
+}
+
+
+/* =========================
+   CALENDAR DOT COLORS
+   ========================= */
+
+.ao3-calendar-dot-work {
+    background: #0f8d96;
+}
+
+.ao3-calendar-dot-personal {
+    background: #d9577a;
+}
+
+.ao3-calendar-dot-mack {
+    background: #34a853;
+}
+
+.ao3-calendar-dot-will {
+    background: #4285f4;
+}
+
+
+/* Event detail calendar dot */
+
+.ao3-event-dot-work {
+    background: #0f8d96;
+}
+
+.ao3-event-dot-personal {
+    background: #d9577a;
+}
+
+.ao3-event-dot-will {
+    background: #4285f4;
+}
+
+.ao3-event-dot-mack {
+    background: #34a853;
+}
+
+
+/* =========================
+   TIMELINE GRID
+   ========================= */
+
+.ao3-calendar-grid {
+    position: absolute;
+    top: 0;
+    left: 48px;
+    right: 0;
+    height: 100%;
+    z-index: 1;
+}
+
+.ao3-grid-line {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: #dedde7;
+}
+
+.ao3-grid-line-half {
+    background: #eeedf2;
+    opacity: 50%;
+}
+
+.ao3-grid-line-7am {
+    top: 60px;
+}
+
+.ao3-grid-line-8am {
+    top: 120px;
+}
+
+.ao3-grid-line-9am {
+    top: 180px;
+}
+
+.ao3-grid-line-10am {
+    top: 240px;
+}
+
+.ao3-grid-line-11am {
+    top: 300px;
+}
+
+.ao3-grid-line-12pm {
+    top: 360px;
+}
+
+.ao3-grid-line-1pm {
+    top: 420px;
+}
+
+.ao3-grid-line-2pm {
+    top: 480px;
+}
+
+.ao3-grid-line-3pm {
+    top: 540px;
+}
+
+.ao3-grid-line-4pm {
+    top: 600px;
+}
+
+.ao3-grid-line-5pm {
+    top: 660px;
+}
+
+.ao3-grid-line-6pm {
+    top: 720px;
+}
+
+.ao3-grid-line-7pm {
+    top: 780px;
+}
+
+.ao3-grid-line-8pm {
+    top: 840px;
+}
+
+.ao3-grid-line-9pm {
+    top: 900px;
+}
+
+.ao3-grid-line-10pm {
+    top: 960px;
+}
+
+.ao3-grid-line-11pm {
+    top: 1020px;
+}
+
+/* =========================
+   HALF-HOUR LINES
+   ========================= */
+
+.ao3-grid-line-630am {
+    top: 30px;
+}
+
+.ao3-grid-line-730am {
+    top: 90px;
+}
+
+.ao3-grid-line-830am {
+    top: 150px;
+}
+
+.ao3-grid-line-930am {
+    top: 210px;
+}
+
+.ao3-grid-line-1030am {
+    top: 270px;
+}
+
+.ao3-grid-line-1130am {
+    top: 330px;
+}
+
+.ao3-grid-line-1230pm {
+    top: 390px;
+}
+
+.ao3-grid-line-130pm {
+    top: 450px;
+}
+
+.ao3-grid-line-230pm {
+    top: 510px;
+}
+
+.ao3-grid-line-330pm {
+    top: 570px;
+}
+
+.ao3-grid-line-430pm {
+    top: 630px;
+}
+
+.ao3-grid-line-530pm {
+    top: 690px;
+}
+
+.ao3-grid-line-630pm {
+    top: 750px;
+}
+
+.ao3-grid-line-730pm {
+    top: 810px;
+}
+
+.ao3-grid-line-830pm {
+    top: 870px;
+}
+
+.ao3-grid-line-930pm {
+    top: 930px;
+}
+
+.ao3-grid-line-1030pm {
+    top: 990px;
+}
+
+.ao3-grid-line-1130pm {
+    top: 1050px;
+}
+
+
+/* =========================
+   EVENT POSITIONS
+   ========================= */
+
+/* 11:00 AM – 12:30 PM */
+
+.ao3-event-11am-1230pm {
+    top: 300px;
+    height: 90px;
+}
+
+.ao3-event-3pm-5pm {
+    top: 540px;
+    height: 120px;
+}
+
+.ao3-event-8pm-10pm {
+    top: 840px;
+    height: 120px;
+}
