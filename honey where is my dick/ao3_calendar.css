@@ -115,6 +115,15 @@
     font-weight: 500;
 }
 
+/* =========================================================
+   LINK
+   ========================================================= */
+
+.ao3-calendar a {
+    color: #4f64c4;
+    font-weight: 500;
+}
+
 
 /* =========================================================
    TOP APP BAR
@@ -1114,20 +1123,27 @@
 
 /* Notes inherit the normal popup text styling */
 
-.ao3-event-details-notes p {
+.ao3-event-details-notes p,
+.ao3-event-details-notes ul {
     margin: 0 0 9px;
-
+    padding: 0;
     font-size: 0.86em;
-
     line-height: 1.5;
-
     color: #45424b;
 }
 
+.ao3-event-details-notes ul {
+    padding-left: 18px;
+}
 
-/* Remove extra space after the final note */
+.ao3-event-details-notes li {
+    margin: 0;
+    padding: 0;
+    color: #45424b;
+}
 
-.ao3-event-details-notes p:last-child {
+.ao3-event-details-notes p:last-child,
+.ao3-event-details-notes ul:last-child {
     margin-bottom: 0;
 }
 
@@ -1366,8 +1382,8 @@
    CURRENT TIME
    ========================= */
 
-.ao3-calendar-now-830am {
-    top: 90px;
+.ao3-calendar-now-1307am {
+    top: 457px;
 }
 
 
@@ -1587,6 +1603,16 @@
    ========================= */
 
 /* 11:00 AM – 12:30 PM */
+
+.ao3-event-0800am-0930am {
+    top: 120px;
+    height: 88px;
+}
+
+.ao3-event-0930am-1015am {
+    top: 210px;
+    height: 45px;
+}
 
 .ao3-event-11am-1230pm {
     top: 300px;
