@@ -6,10 +6,8 @@
 	max-width: 330px;
 	font-family: "Helvetica Neue", Helvetica, system-ui;
 	display: table;
-	margin-left: auto;
-    margin-right: auto;
-    margin-top: 2em;
-    margin-bottom: 2em;
+	margin: 2em auto;
+	border-radius: 3px;
 }
 
 /* Everything takes on the font */
@@ -57,6 +55,7 @@
 	position: relative;
 	z-index: 1;
 }
+
 /* tails */
 .imessage .in dd:last-of-type::after,
 .imessage .out dd:last-of-type::after {
@@ -67,6 +66,7 @@
 	height: 1em;
 	z-index: -1;
 }
+
 /* the last part in a text series has more space after it
  * (not necessarily a text, could be a read receipt) */
 .imessage .in dd:last-child,
@@ -79,6 +79,7 @@
 	background: #007aff;
 	color: white;
 }
+
 .imessage .out dd:last-of-type::after {
 	right: -0.625em;
 	border-left: 0.625em solid #007aff;
@@ -90,6 +91,7 @@
 	background: #e5e5ea;
 	color: black;
 }
+
 .imessage .in dd:last-of-type::after {
 	left: -0.625em;
 	border-right: 0.625em solid #e5e5ea;
@@ -119,6 +121,7 @@
 	padding: 0;
 	overflow: hidden;
 }
+
 .imessage dd.pic img {
 	max-width: 100%;
 	display: block;
@@ -138,6 +141,7 @@
 	color: black;
 	background: #e5e5ea !important;
 }
+
 /* Even outgoing texts are incoming-colored */
 .imessage dd.richlink::after {
 	border-color: #e5e5ea !important;
@@ -160,16 +164,19 @@
 	border: none;
 	max-width: 100%;
 }
+
 /* default aspect ratio, 16:9 */
 .imessage dd.richlink a iframe {
 	width: 210px;
 	height: 118px;
 }
+
 /* aspect ratio 4:3 */
 .imessage dd.richlink a iframe.SD {
 	width: 210px;
 	height: 157px;
 }
+
 /* tall narrow images can't be THAT big */
 .imessage dd.richlink a img {
 	max-height: 250px;
@@ -182,6 +189,7 @@
 	margin: 1em 1.5em;
 	color: #8e8e93;
 }
+
 .imessage dd.richlink a .caption b {
 	display: block;
 	margin-bottom: 0.5em;
@@ -189,10 +197,11 @@
 }
 
 /* arrow, if it's a video */
-.imessage dd.richlink a iframe + .caption {
+.imessage dd.richlink a iframe+.caption {
 	margin-right: 2.5em;
 }
-.imessage dd.richlink a iframe + .caption::after {
+
+.imessage dd.richlink a iframe+.caption::after {
 	content: "";
 	position: absolute;
 	right: -1em;
@@ -218,12 +227,14 @@
 	background: #e5e5ea;
 	border: none;
 }
+
 .imessage .in dd.typing::after {
 	bottom: 0;
 	left: -0.15625em;
 	width: 0.625em;
 	height: 0.625em;
 }
+
 .imessage .in dd.typing::before {
 	bottom: -0.2em;
 	left: -0.3125em;
@@ -240,21 +251,30 @@
 	display: inline-block;
 	margin: 0.125em 0;
 }
-.imessage .in dd.typing div:nth-child(1) {opacity: 0.4;}
-.imessage .in dd.typing div:nth-child(2) {opacity: 0.7;}
-.imessage .in dd.typing div:nth-child(3) {opacity: 1;}
+
+.imessage .in dd.typing div:nth-child(1) {
+	opacity: 0.4;
+}
+
+.imessage .in dd.typing div:nth-child(2) {
+	opacity: 0.7;
+}
+
+.imessage .in dd.typing div:nth-child(3) {
+	opacity: 1;
+}
 
 
 
 .imessage .in dd.typinganimation {
-    padding: 0.45em 0.9em;
-    background: #e5e5ea;
+	padding: 0.45em 0.9em;
+	background: #e5e5ea;
 }
 
 .imessage .in dd.typinganimation img {
-    display: block;
-    width: 2.9em;
-    height: auto;
+	display: block;
+	width: 2.9em;
+	height: auto;
 }
 
 /**************************************************
@@ -306,6 +326,7 @@
 	font-weight: bold;
 	white-space: nowrap;
 }
+
 /* back arrow */
 .imessage .contact::before {
 	content: "";
@@ -396,6 +417,7 @@
 .imessage .out.sms dd {
 	background: #34c759;
 }
+
 .imessage.sms .out dd::after,
 .imessage .out.sms dd::after {
 	border-color: #34c759;
@@ -405,6 +427,7 @@
 .imessage.sms .typebar::before {
 	background-color: #34c759;
 }
+
 /* filler text */
 .imessage.sms .typebar:empty::after {
 	content: "Text Message";
@@ -415,35 +438,37 @@
 *   Emoji reactions
 **************************************************/
 
-.imessage dd.reacted {
-    margin-bottom: 1em;
-}
-
 .imessage .reaction {
-    position: absolute;
-    bottom: -0.65em;
-    right: 1em;
+	position: absolute;
 
-    min-width: 1.4em;
-    height: 1.4em;
+	min-width: 1.4em;
+	height: 1.4em;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 
-    background: #fff;
-    border: 1px solid rgba(60, 60, 67, 0.25);
-    border-radius: 50%;
+	background: #fff;
+	opacity: 95%;
+	border: 1px solid rgba(60, 60, 67, 0.25);
+	border-radius: 50%;
 
-    font-size: 0.75em;
-    line-height: 1;
+	font-size: 0.75em;
+	line-height: 1;
 
-    padding: 0.15em;
-    z-index: 2;
-    box-sizing: content-box;
+	padding: 0.15em;
+	z-index: 2;
+	box-sizing: content-box;
 }
 
-.imessage .out dd.reacted .reaction {
-    left: 0.25em;
-    right: auto;
+/* incoming: reaction on right */
+.imessage .in .reaction {
+	right: 0.6em;
+	bottom: -1em;
+}
+
+/* outgoing: reaction on left */
+.imessage .out .reaction {
+	left: 0.6em;
+	bottom: -1.2em;
 }

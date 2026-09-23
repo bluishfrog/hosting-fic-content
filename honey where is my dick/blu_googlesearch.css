@@ -1,0 +1,382 @@
+.google-results {
+    width: 100%;
+    min-width: 300px;
+    max-width: 500px;
+    margin: 2em auto;
+    padding: 1em;
+    border: 1px solid #d2d1dc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background: #fff;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.875em;
+    line-height: 1.4;
+    color: #202124;
+}
+
+.google-only-bar {
+    margin: 2em auto;
+}
+
+
+/* =========================================================
+   SEARCH BAR
+   ========================================================= */
+
+.gsr-search-details {
+    display: block;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.18);
+    background: #fff;
+    overflow: hidden;
+    margin-bottom: 1.3em;
+}
+
+
+/* Clickable top portion */
+
+.gsr-search-summary {
+    display: block;
+    list-style: none;
+    cursor: pointer;
+    padding: 0.55em 1em;
+    box-sizing: border-box;
+}
+
+.gsr-search-summary::-webkit-details-marker {
+    display: none;
+}
+
+.gsr-search-summary::marker {
+    display: none;
+}
+
+
+/* Search bar row */
+
+.gsr-search-row {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+.gsr-search-logo-cell,
+.gsr-search-query-cell,
+.gsr-search-actions-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.gsr-search-logo-cell {
+    width: 1.35em;
+    white-space: nowrap;
+    padding-right: 0.7em;
+}
+
+.gsr-search-query-cell {
+    width: auto;
+}
+
+.gsr-search-actions-cell {
+    width: 6.4em;
+    white-space: nowrap;
+    padding-left: 0.7em;
+}
+
+
+/* Google icon */
+
+.gsr-google-icon {
+    display: block;
+    width: 1.35em;
+    height: 1.35em;
+    max-width: none;
+    border-radius: 50%;
+    margin: 0;
+}
+
+
+/* Search text */
+
+.gsr-bar-query {
+    display: block;
+    color: #202124;
+    word-break: break-word;
+}
+
+
+/* Right-side icons */
+
+.gsr-actions {
+    display: block;
+    width: auto;
+    height: 1.5em;
+    max-width: none;
+    margin: 0;
+}
+
+
+/* =========================================================
+   SEARCH HISTORY DROPDOWN
+   ========================================================= */
+
+.gsr-dropdown {
+    border-top: 1px solid #edf0f2;
+    padding: 0.35em 0 0.55em;
+}
+
+.gsr-dropdown-option {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0.55em 1.15em;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.gsr-dropdown-option:hover {
+    background: #f8f9fa;
+}
+
+.gsr-dropdown-icon {
+    display: inline-block;
+    width: 0.72em;
+    height: 0.72em;
+    border: 2px solid #70757a;
+    border-radius: 50%;
+    margin: 0 1em 0 0.15em;
+    position: relative;
+    box-sizing: border-box;
+    flex: 0 0 auto;
+}
+
+.gsr-dropdown-icon::after {
+    content: "";
+    position: absolute;
+    width: 0.42em;
+    height: 2px;
+    background: #70757a;
+    right: -0.36em;
+    bottom: -0.18em;
+    transform: rotate(45deg);
+}
+
+.gsr-dropdown-text {
+    color: #202124;
+    word-break: break-word;
+}
+
+
+/* =========================================================
+   RESULTS
+   ========================================================= */
+
+.gsr-results-content {
+    padding: 0 0.15em;
+}
+
+.gsr-tabs {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+    border-bottom: 1px solid #ebebeb;
+    padding: 0 0.25em 0.6em;
+    margin-bottom: 0.9em;
+    box-sizing: border-box;
+}
+
+.gsr-tab {
+    flex: 0 0 auto;
+    color: #5f6368;
+    font-size: 0.9em;
+    margin: 0 1.25em 0 0;
+    padding-bottom: 0.6em;
+    box-sizing: border-box;
+}
+
+.gsr-tab-active {
+    color: #1a73e8;
+    font-weight: 700;
+    border-bottom: 3px solid #1a73e8;
+}
+
+
+.gsr-stats {
+    color: #70757a;
+    font-size: 0.8em;
+    margin: 0 0 1.1em;
+}
+
+
+/* =========================================================
+   SEARCH RESULTS
+   ========================================================= */
+
+.gsr-result {
+    margin-bottom: 1.4em;
+}
+
+.gsr-result-head {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.2em;
+}
+
+.gsr-favicon {
+    flex: 0 0 auto;
+    width: 1.7em;
+    height: 1.7em;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0.6em 0 0;
+    box-sizing: border-box;
+}
+
+.gsr-favicon-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.gsr-result-site {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.gsr-site {
+    font-size: 0.85em;
+    color: #202124;
+    word-break: break-word;
+}
+
+.gsr-path {
+    font-size: 0.78em;
+    color: #4d5156;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.gsr-title {
+    display: block;
+    color: #1a0dab;
+    font-size: 1.13em;
+    margin-bottom: 0.2em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.55;
+}
+
+.gsr-snippet {
+    color: #4d5156;
+    font-size: 0.9em;
+    line-height: 1.55;
+    word-break: break-word;
+}
+
+
+/* =========================================================
+   RELATED SEARCHES
+   ========================================================= */
+
+.gsr-related {
+    margin: 1.5em 0;
+}
+
+.gsr-related-title {
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #202124;
+    margin: 0 0 0.45em;
+}
+
+.gsr-related-grid {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.gsr-related-item {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    width: 48%;
+    min-height: 3.3em;
+    background: #f1f3f4;
+    border-radius: 8px;
+    padding: 0.9em 2.8em 0.9em 1em;
+    margin: 0.3em 2% 0.3em 0;
+    font-size: 0.92em;
+    font-weight: 600;
+    line-height: 1.35;
+    color: #202124;
+    word-break: break-word;
+    box-sizing: border-box;
+}
+
+.gsr-related-item:nth-child(even) {
+    margin-left: 2%;
+    margin-right: 0;
+}
+
+.gsr-related-icon {
+    position: absolute;
+    right: 1.15em;
+    top: 50%;
+    width: 0.62em;
+    height: 0.62em;
+    border: 2px solid #70757a;
+    border-radius: 50%;
+    transform: translateY(-65%);
+    box-sizing: border-box;
+}
+
+.gsr-related-icon::after {
+    content: "";
+    position: absolute;
+    right: -0.38em;
+    bottom: -0.22em;
+    width: 0.45em;
+    border-top: 2px solid #70757a;
+    transform: rotate(45deg);
+}
+
+
+/* =========================================================
+   PAGINATION
+   ========================================================= */
+
+.gsr-pager {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: -0.35em;
+    padding: 0.5em 0.25em;
+}
+
+.gsr-pg {
+    flex: 0 0 auto;
+    color: #4285f4;
+    font-size: 0.95em;
+    margin: 0 1em 0 0;
+}
+
+.gsr-pg-current {
+    color: #202124;
+    font-weight: 700;
+}
+
+.gsr-pg-nav {
+    color: #5f6368;
+}

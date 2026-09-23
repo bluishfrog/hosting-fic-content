@@ -3,7 +3,7 @@
 .scoreboard {
   width: 90%;
   max-width: 400px;
-  margin: 20px auto;
+margin: 2em auto;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #fff;
   border: 1px solid #e0e0e0;
@@ -12,12 +12,14 @@
   color: #333;
   line-height: 1.5;
 }
+
 /* neutralize AO3 editor auto-generated <p> tags and prevent flexbox layout breakage */
 .scoreboard p {
   margin: 0 !important;
   padding: 0 !important;
   display: contents;
 }
+
 .scoreboard br {
   display: none !important;
 }
@@ -30,11 +32,13 @@
   border-bottom: 1px solid #e0e0e0;
   padding: 10px 16px;
 }
+
 .scoreboard .sb-header-logo {
   height: 18px;
   width: auto;
   margin-right: 8px;
 }
+
 .scoreboard .sb-header-title {
   font-size: 12px;
   font-weight: bold;
@@ -47,39 +51,47 @@
 .scoreboard .sb-top-section {
   padding: 16px;
 }
+
 .scoreboard .sb-status {
   font-size: 11px;
   font-weight: bold;
   margin-bottom: 12px;
   letter-spacing: 0.5px;
 }
+
 .scoreboard .sb-matchup {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
+
 .scoreboard .sb-teams {
   display: flex;
   flex-direction: column;
 }
+
 .scoreboard .sb-team-row {
   display: flex;
   align-items: center;
   height: 24px;
 }
+
 .scoreboard .sb-team-row:first-child {
   margin-bottom: 12px;
 }
+
 .scoreboard .sb-logo {
   width: 20px;
   height: 20px;
   margin-right: 8px;
 }
+
 .scoreboard .sb-team-name {
   font-size: 15px;
   font-weight: bold;
   color: #444;
 }
+
 .scoreboard .sb-team-record {
   font-size: 11px;
   color: #888;
@@ -100,6 +112,7 @@
 .scoreboard .sb-scores {
   display: flex;
 }
+
 .scoreboard .sb-period {
   display: flex;
   flex-direction: column;
@@ -107,14 +120,17 @@
   margin: 0 12px 0 0;
   padding: 0;
 }
+
 .scoreboard .sb-period:last-child {
   margin-right: 0;
 }
+
 .scoreboard .sb-period dt {
   font-size: 11px;
   color: #888;
   margin-bottom: 8px;
 }
+
 .scoreboard .sb-period dd {
   margin: 0;
   font-size: 14px;
@@ -124,21 +140,26 @@
   align-items: center;
   justify-content: center;
 }
+
 .scoreboard .sb-period dd:first-of-type {
   margin-bottom: 12px;
 }
+
 .scoreboard .sb-period.sb-total dt {
   color: #333;
   font-weight: bold;
 }
+
 .scoreboard .sb-period.sb-total dd {
   font-weight: bold;
   font-size: 16px;
 }
+
 /* Highlight winner's total score with blue text */
 .scoreboard .sb-period.sb-total dd.winner-score {
   color: #0056b3;
 }
+
 .scoreboard .sb-game-info {
   font-size: 11px;
   color: #777;
@@ -153,6 +174,7 @@
   border-bottom: 1px solid #eee;
   line-height: 0;
 }
+
 .scoreboard .sb-media img {
   width: 100%;
   height: auto;
@@ -163,20 +185,24 @@
 .scoreboard .sb-stars-section {
   padding: 16px;
 }
+
 .scoreboard .sb-stars-title {
   font-size: 11px;
   color: #888;
   letter-spacing: 1.5px;
   margin-bottom: 16px;
 }
+
 .scoreboard .sb-star-row {
   display: flex;
   align-items: center;
   margin-bottom: 16px;
 }
+
 .scoreboard .sb-star-row:last-child {
   margin-bottom: 0;
 }
+
 .scoreboard .sb-star-img {
   width: 44px;
   height: 44px;
@@ -185,28 +211,33 @@
   border: 1px solid #eee;
   margin-right: 12px;
 }
+
 .scoreboard .sb-star-info {
   display: flex;
   flex-direction: column;
 }
+
 .scoreboard .sb-star-name {
   font-size: 13px;
   font-weight: bold;
   color: #333;
   margin-bottom: 3px;
 }
+
 .scoreboard .sb-star-meta {
   font-weight: normal;
   font-size: 11px;
   color: #999;
   margin-left: 6px;
 }
+
 .scoreboard .sb-star-game-stat {
   font-size: 11px;
   color: #555;
   letter-spacing: 0.5px;
   margin-bottom: 4px;
 }
+
 .scoreboard .sb-star-season-stat {
   font-size: 10px;
   color: #0056b3;
