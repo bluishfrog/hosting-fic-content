@@ -176,6 +176,29 @@
     cursor: pointer;
 }
 
+#workskin .twt-imagegrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3px;
+    width: 100%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border: 1px solid #c7c7c7;
+    border-radius: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+#workskin .twt-gridimage {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
 #workskin .tungle {
     min-width: 300px;
     max-width: 500px;
