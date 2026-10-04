@@ -315,17 +315,48 @@
 /**************************************************
 *		Contact header
 **************************************************/
+
 .imessage .contact {
 	position: relative;
 	background: #f2f2f7;
 	border: 1px solid rgba(60, 60, 67, 0.29);
 	margin: 0;
 	text-align: center;
-	font-size: 1.2em;
-	line-height: 3em;
-	font-weight: bold;
+	font-size: 0.9em;
 	white-space: nowrap;
+	padding: 0.9em 0 0.8em;
+	line-height: 1.2;
 }
+
+/* contact picture */
+.imessage .contact img {
+	display: block;
+	width: 3em;
+	height: 3em;
+	margin: 0 auto 0.3em;
+	border-radius: 50%;
+}
+
+/* contact name */
+.imessage .contact span {
+	display: inline-block;
+	position: relative;
+	padding-right: 0.7em;
+}
+
+/* tiny arrow after contact name */
+.imessage .contact span::after {
+	content: "";
+	position: absolute;
+	right: 0;
+	top: 53%;
+	width: 0.35em;
+	height: 0.35em;
+	border-top: 1.5px solid #8e8e93;
+	border-right: 1.5px solid #8e8e93;
+	transform: translateY(-50%) rotate(45deg);
+}
+
 
 /* back arrow */
 .imessage .contact::before {
@@ -340,6 +371,28 @@
 	border-left: 2.5px solid #007aff;
 	border-bottom: 2.5px solid #007aff;
 	transform: rotate(45deg);
+}
+
+/* unread messages */
+.imessage .contact .unread {
+	position: absolute;
+	left: 3em;
+	top: 50%;
+	transform: translateY(-50%);
+
+	min-width: 1.3em;
+	height: 1.3em;
+	padding: 0 0.2em;
+
+	box-sizing: border-box;
+	border-radius: 50%;
+	background: #007aff;
+	color: white;
+
+	font-size: 0.8em;
+	font-weight: bold;
+	line-height: 1.3em;
+	text-align: center;
 }
 
 /**************************************************

@@ -16,10 +16,16 @@
 }
 
 .google-only-bar {
-    margin: 2em auto;
     width: 100%;
     min-width: 300px;
     max-width: 500px;
+    margin: 2em auto;
+    box-sizing: border-box;
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.875em;
+    line-height: 1.4;
+    color: #202124;
 }
 
 
