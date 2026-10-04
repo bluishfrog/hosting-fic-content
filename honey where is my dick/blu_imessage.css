@@ -8,6 +8,7 @@
 	display: table;
 	margin: 2em auto;
 	border-radius: 3px;
+	background: #ffffff89;
 }
 
 /* Everything takes on the font */
@@ -345,7 +346,7 @@
 }
 
 /* tiny arrow after contact name */
-.imessage .contact span::after {
+.imessage .contact span:not(.unread)::after {
 	content: "";
 	position: absolute;
 	right: 0;
@@ -376,16 +377,16 @@
 /* unread messages */
 .imessage .contact .unread {
 	position: absolute;
-	left: 3em;
+	left: 2.5em;
 	top: 50%;
 	transform: translateY(-50%);
 
 	min-width: 1.3em;
 	height: 1.3em;
-	padding: 0 0.2em;
+	padding: 0 0.3em;
 
 	box-sizing: border-box;
-	border-radius: 50%;
+	border-radius: 999px;
 	background: #007aff;
 	color: white;
 
