@@ -1605,7 +1605,6 @@
    EVENT POSITIONS
    ========================= */
 
-/* 11:00 AM – 12:30 PM */
 
 .ao3-event-0800am-0930am {
     top: 120px;
@@ -1619,11 +1618,31 @@
 
 .ao3-event-11am-1230pm {
     top: 300px;
-    height: 90px;
+    height: 89px;
+}
+
+.ao3-event-1230pm-0100pm {
+    top: 390px;
+    height: 44px;
+}
+
+.ao3-event-2pm-5pm {
+    top: 480px;
+    height: 180px;
 }
 
 .ao3-event-3pm-5pm {
     top: 540px;
+    height: 120px;
+}
+
+.ao3-event-0515pm-0600pm {
+    top: 675px;
+    height: 45px;
+}
+
+.ao3-event-7pm-9pm {
+    top: 840px;
     height: 120px;
 }
 
