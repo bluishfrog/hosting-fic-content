@@ -81,28 +81,28 @@
 }
 
 .ao3-event-calendar-name {
-    line-height:1.2;
-    white-space:nowrap;
+    line-height: 1.2;
+    white-space: nowrap;
 }
 
 .ao3-event-calendar-name br {
-    display:none;
+    display: none;
 }
 
 .ao3-event-calendar-name p {
-    display:inline;
-    margin:0;
-    padding:0;
-    line-height:1.2;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
 }
 
 .ao3-event-calendar-dot {
-    display:inline-block;
-    vertical-align:middle;
-    width:8px;
-    height:8px;
-    margin-right:6px;
-    border-radius:50%;
+    display: inline-block;
+    vertical-align: middle;
+    width: 8px;
+    height: 8px;
+    margin-right: 6px;
+    border-radius: 50%;
 }
 
 
@@ -766,6 +766,20 @@
    EVENT DETAIL POPUP
    ========================================================= */
 
+.ao3-calendar .ao3-event .ao3-event-details h3 {
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+
+    font-style: normal;
+    font-weight: 600;
+}
+
 .ao3-event-details {
     position: absolute;
 
@@ -948,22 +962,21 @@
     vertical-align: middle;
 }
 
-
 .ao3-event-invite-actions p {
     display: inline;
 
     margin: 0;
-
     padding: 0;
 
     line-height: 1;
 }
 
-
 .ao3-event-invite-actions br {
     display: none;
 }
 
+
+/* Buttons */
 
 .ao3-event-invite-accept,
 .ao3-event-invite-decline {
@@ -987,20 +1000,34 @@
     text-align: center;
 
     vertical-align: middle;
+
+    text-decoration: none;
 }
 
 
-.ao3-event-invite-accept {
-    color: #176b36;
+/* Accept */
 
+.ao3-calendar a.ao3-event-invite-accept {
+    color: #176b36;
     background: #d9f0e2;
 }
 
 
-.ao3-event-invite-decline {
-    color: #a50e0e;
+/* Decline */
 
+.ao3-calendar a.ao3-event-invite-decline {
+    color: #a50e0e;
     background: #fce1e1;
+}
+
+
+/* Hover */
+
+.ao3-calendar a.ao3-event-invite-accept:hover,
+.ao3-calendar a.ao3-event-invite-decline:hover {
+    text-decoration: none;
+
+    filter: brightness(0.94);
 }
 
 
@@ -1386,8 +1413,8 @@
     top: 457px;
 }
 
-.ao3-calendar-now-1241am {
-    top: 401px;
+.ao3-calendar-now-1239am {
+    top: 399px;
 }
 
 /* =========================
@@ -1618,12 +1645,12 @@
 
 .ao3-event-11am-1230pm {
     top: 300px;
-    height: 89px;
+    height: 90px;
 }
 
-.ao3-event-1230pm-0100pm {
-    top: 390px;
-    height: 44px;
+.ao3-event-1245pm-0115pm {
+    top: 405px;
+    height: 45px;
 }
 
 .ao3-event-2pm-5pm {
@@ -1641,12 +1668,27 @@
     height: 45px;
 }
 
-.ao3-event-7pm-9pm {
-    top: 840px;
-    height: 120px;
+.ao3-event-0615pm-0715pm {
+    top: 735px;
+    height: 58px;
 }
 
-.ao3-event-8pm-10pm {
+.ao3-event-0630pm-0715pm {
+    top: 750px;
+    height: 43px;
+}
+
+.ao3-event-0715pm-0830pm {
+    top: 795px;
+    height: 73px;
+}
+
+.ao3-event-0830pm-1000pm {
+    top: 870px;
+    height: 90px;
+}
+
+.ao3-event-7pm-9pm {
     top: 840px;
     height: 120px;
 }

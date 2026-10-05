@@ -21,7 +21,6 @@
     max-width: 500px;
     margin: 2em auto;
     box-sizing: border-box;
-    background: #fff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.875em;
     line-height: 1.4;
@@ -271,9 +270,10 @@
 .gsr-path {
     font-size: 0.78em;
     color: #4d5156;
-    white-space: nowrap;
-    overflow: hidden;
+    white-space: wrap;
+    overflow: visible;
     text-overflow: ellipsis;
+    word-break: break-word;
 }
 
 .gsr-title {
@@ -281,9 +281,10 @@
     color: #1a0dab;
     font-size: 1.13em;
     margin-bottom: 0.2em;
-    white-space: nowrap;
-    overflow: hidden;
+    white-space: wrap;
+    overflow: visible;
     text-overflow: ellipsis;
+    word-break: break-word;
     line-height: 1.55;
 }
 
@@ -388,4 +389,130 @@
 
 .gsr-pg-nav {
     color: #5f6368;
+}
+
+
+/* =========================================================
+   AO3 HTML COMPATIBILITY
+   ========================================================= */
+
+
+/* ---------------------------------------------------------
+   GENERAL AO3 PARAGRAPH RESET
+   --------------------------------------------------------- */
+
+/*
+ * AO3 turns some text into <p> elements.
+ * Remove AO3's paragraph margins, but DO NOT change
+ * the display type of the paragraph itself.
+ */
+
+.google-results p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/* ---------------------------------------------------------
+   SEARCH TABS
+   --------------------------------------------------------- */
+
+/*
+ * AO3 inserts a <p> around the tab spans and <br> between
+ * them. We want the spans to remain direct visual children
+ * of the flex container.
+ */
+
+.gsr-tabs > p {
+    display: contents;
+}
+
+.gsr-tabs br {
+    display: none;
+}
+
+
+/* ---------------------------------------------------------
+   SEARCH HISTORY
+   --------------------------------------------------------- */
+
+/*
+ * IMPORTANT:
+ * .gsr-dropdown-option itself IS the <p> AO3 generated.
+ * Keep it as a normal block/flex element.
+ */
+
+.gsr-dropdown-option {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0.55em 1.15em;
+    box-sizing: border-box;
+}
+
+.gsr-dropdown-option > * {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/* Keep the history icon in exactly the same position. */
+
+.gsr-dropdown-icon {
+    flex: 0 0 auto;
+}
+
+
+/* ---------------------------------------------------------
+   FAVICON
+   --------------------------------------------------------- */
+
+/*
+ * AO3 creates:
+ *
+ * .gsr-favicon
+ *   └── p
+ *       └── img
+ *
+ * The paragraph should not add spacing around the image.
+ */
+
+.gsr-favicon p {
+    margin: 0;
+    padding: 0;
+}
+
+.gsr-favicon p img {
+    display: block;
+}
+
+
+/* ---------------------------------------------------------
+   RESULT SITE / PATH
+   --------------------------------------------------------- */
+
+.gsr-site p,
+.gsr-path p {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ---------------------------------------------------------
+   RESULT TITLE
+   --------------------------------------------------------- */
+
+.gsr-title p {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ---------------------------------------------------------
+   RESULT SNIPPET
+   --------------------------------------------------------- */
+
+.gsr-snippet p {
+    margin: 0;
+    padding: 0;
 }
