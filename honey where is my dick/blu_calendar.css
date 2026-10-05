@@ -820,6 +820,13 @@
     right: 0;
 }
 
+/* middle side events open centered */
+
+.ao3-event-col-2-of-3 .ao3-event-details {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 /* =========================================================
    BOTTOM EVENTS — OPEN POPUP UPWARD
    ========================================================= */
