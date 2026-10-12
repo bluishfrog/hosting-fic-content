@@ -526,3 +526,51 @@
 	left: 0.6em;
 	bottom: -1.2em;
 }
+
+/* Add extra space after a message with a reaction
+   when another message follows in the same group */
+.imessage .in dd:has(.reaction):not(:last-child),
+.imessage .out dd:has(.reaction):not(:last-child) {
+	margin-bottom: 0.9em;
+}
+
+
+/* Multiple incoming emoji reactions */
+.imessage .in .reaction:nth-of-type(2) {
+    right: 1.8em;
+}
+
+/* Multiple outgoing emoji reactions */
+.imessage .out .reaction:nth-of-type(2) {
+    left: 1.8em;
+}
+
+/* Multiple incoming emoji reactions */
+.imessage .in .reaction:nth-of-type(3) {
+    right: 3.0em;
+}
+
+/* Multiple outgoing emoji reactions */
+.imessage .out .reaction:nth-of-type(3) {
+    left: 3.0em;
+}
+
+/* Multiple incoming emoji reactions */
+.imessage .in .reaction:nth-of-type(4) {
+    right: 4.2em;
+}
+
+/* Multiple outgoing emoji reactions */
+.imessage .out .reaction:nth-of-type(4) {
+    left: 4.2em;
+}
+
+/* Multiple incoming emoji reactions */
+.imessage .in .reaction:nth-of-type(5) {
+    right: 5.4em;
+}
+
+/* Multiple outgoing emoji reactions */
+.imessage .out .reaction:nth-of-type(5) {
+    left: 5.4em;
+}
